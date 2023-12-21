@@ -1,0 +1,123 @@
+{{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
+-}}
+
+<!-- =============================
+       Start About Me
+    =============================== -->
+<section class="about-me" id="about">
+  <div class="container">
+    {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
+    <div class="row about-me-holder">
+      <div
+        class="
+          col-lg-6 col-md-6 col-sm-6
+          about-me-text
+          d-flex
+          align-self-center
+        "
+      >
+        <div class="text-holder">
+          <h1>{{ .title | safeHTML }}</h1>
+          <p>{{ .content | markdownify | emojify }}</p>
+          {{ if .button.enable }} {{ with .button }}
+          <a
+            href="{{ .link | relURL }}"
+            target="_blank"
+            rel="noreferrer"
+            class="button download-cv"
+          >
+            {{ .label }} <i class="fa fa-download"></i
+          ></a>
+          {{ end }} {{ end }}
+        </div>
+      </div>
+      {{ with .image }}
+      <div class="col-lg-6 col-sm-6 col-9 about-me-images">
+        <img src="{{ . | relURL }}" alt="about-me" />
+      </div>
+      {{ end }}
+    </div>
+    {{ end }} {{ end }}
+
+<!-- =============================
+      End About Me
+    =============================== -->
+
+<!-- =============================
+       Start courses
+    ============================== -->
+{{ if .Site.Data.content.courses.enable }}
+{{ with .Site.Data.content.courses }}
+<div class="courses container pt-5" id="courses">
+  <h2>{{ .title }}</h2>
+  <p>{{ .text }}</p>
+  <div class="row course-list">
+    {{ range .list }}
+    <div class="course col-lg-5 col-sm-12 mb-4">
+      {{ $image := resources.Get .image }}
+      {{ $small_image := $image.Fill "128x128 jpg" }}
+      <img class="pb-2" src="{{ $small_image.RelPermalink }}" alt="{{ .name }}" />
+      <p class="pb-2 name">{{ .name }}</p>
+      <p>{{ .text }}</p>
+    </div>
+  {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}
+
+{{ if .Site.Data.content.funfacts.enable }} {{ with .Site.Data.content.funfacts
+}}
+<div class="fun-facts container pt-5">
+  {{ range .funfacts_list }}
+  <div class="fun-fact-holder">
+    <img class="img-fluid" src="{{ .image | relURL }}" alt="{{ .name }}" />
+    <p class="fact-counter count" data-count="{{ .count }}">0</p>
+    <p>{{ .name }}</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }} {{ end }}
+
+<!-- =============================
+  Start Portfolio
+  =============================== -->
+  {{ if .Site.Data.content.portfolio.enable }} {{ with
+  .Site.Data.content.portfolio }}
+  <section class="portfolio" id="portfolio">
+    <div class="container-fluid text-center">
+      <div class="row portfolio-holder text-left">
+        <div class="col-12 text-center">
+          <h2>{{ .title }}</h2>
+        </div>
+        <ul id="og-grid" class="og-grid">
+          {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
+          $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
+          "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
+          <li>
+            <p id="description-{{ $parsed_name | urlize }}" class="hidden">
+            {{ .description | markdownify }}
+            </p>
+            <a
+                href="{{ .url }}"
+                data-largesrc="{{ $big_image.RelPermalink }}"
+                data-title="{{ .name }}"
+                data-buttontext="SEE SITE"
+                >
+                <img
+                    src="{{ $sm_image.RelPermalink }}"
+                    alt="{{ $parsed_name }} image"
+                    />
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {{ end }} {{ end }}
+  <!-- =============================
+    End Portfolio
+    =============================== -->
+
+    {{- partial "footer.html" . -}} {{ end }}
