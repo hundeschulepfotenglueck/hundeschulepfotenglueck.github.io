@@ -33,12 +33,18 @@ params:
       link: "#"
 menu:
   main:
-    - name: Home
-      URL: "#home"
-      weight: 1
+    # - name: Home
+    #   URL: "#home"
+      # weight: 1
     - name: Über mich
       URL: "#about"
       weight: 2
-    - name: Kurse
-      URL: "#courses"
+    - name: Angebote
+      URL: "#offers"
       weight: 3
+    - name: Preise
+      URL: "#pricing"
+      weight: 4
+    - name: Anfahrt & Kontakt
+      URL: "#contact"
+      weight: 5

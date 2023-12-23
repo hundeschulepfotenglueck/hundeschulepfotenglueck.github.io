@@ -1,0 +1,92 @@
+########################## hero area ##########################
+hero:
+  title: "Hundeschule Pfotenglück"
+
+  # animated text loop
+  occupations:
+    - 'Coaching für Hundehalter'
+    # - 'Welpenstunden'
+
+  # hero background image
+  bg_image: 'img/kathi2.jpeg'
+  mobile_bg_image: 'img/kathi2.jpeg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'img/kathi.jpeg'
+  title: 'Hi, Ich bin Kathi!'
+  content: |
+    **Lorem** ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  # button:
+  #   enable: true
+  #   label: 'DOWNLOAD MY RESUME'
+  #   link: #
+  #   icon: 'fa-download'
+  #
+
+############################### Courses ###############################
+courses:
+  enable: true
+  title: Kurse
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+  list:
+    - name: Basiskurs
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+      image: img/pfote.jpg
+    - name: Social Walk
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+      image: img/pfote.jpg
+    - name: Begegnungstraining
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+      image: img/pfote.jpg
+
+######################### funfacts #############################3
+# funfacts:
+#   enable: true
+#   funfacts_list:
+#     - name: 'CUPS PER DAY'
+#       image: 'images/icons/coffee.png'
+#       count: '2'
+
+#     - name: 'SITES BUILT'
+#       image: 'images/icons/web-development.png'
+#       count: '25'
+
+#     - name: 'USELESS ROW OF ICONS'
+#       image: 'images/icons/happy.png'
+#       count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'Kurse'
+  text: |
+    Meine Kurse verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
+    einen Link zur Anmeldung zum Kurs über Airtable.
+  portfolio_list:
+    - name: Erweiterungskurs
+      image: 'img/pfote.jpg'
+      url: https://airtable.com
+      description: |
+        Erweiterungskurs, für die, die keinen Bock mehr auf Grundkurs haben.
+
+        Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Welpenkurs
+      image: 'img/pfote.jpg'
+      url: https://airtable.com
+      description: |
+        Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Grundkurs
+      image: 'img/pfote.jpg'
+      url: https://airtable.com
+      description: |
+        Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Profikurs
+      image: 'img/pfote.jpg'
+      url: https://airtable.com
+      description: |
+        Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.

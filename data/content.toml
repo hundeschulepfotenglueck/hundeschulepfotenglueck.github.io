@@ -1,0 +1,162 @@
+[hero]
+title = "Hundeschule Pfotenglück"
+occupations = [ "Coaching für Hundehalter" ]
+bg_image = "img/kathi2.jpeg"
+mobile_bg_image = "img/kathi2.jpeg"
+
+[about]
+enable = true
+image = "img/kathi.jpeg"
+title = "Hi, ich bin Kathi!"
+content = """
+**Lorem** ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+"""
+
+[courses]
+enable = true
+title = "Kurse"
+text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+
+  [[courses.list]]
+  name = "Welpenstunde"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/pfote.jpg"
+
+  [[courses.list]]
+  name = "Basiskurs"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/pfote.jpg"
+
+
+  [[courses.list]]
+  name = "Grundkurs"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/pfote.jpg"
+  link = "/angebote/grundkurs"
+
+  [[courses.list]]
+  name = "Social Walk"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/pfote.jpg"
+
+  [[courses.list]]
+  name = "Begegnungstraining"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/pfote.jpg"
+
+[portfolio]
+enable = true
+title = "Kurse"
+text = """
+Meine Kurse verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
+einen Link zur Anmeldung zum Kurs über Airtable.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Welpenkurs"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Grundkurs"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Erweiterungskurs"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Erweiterungskurs, für die, die keinen Bock mehr auf Grundkurs haben.
+
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+Termine
+
+- Sonntags, 12:00 Uhr
+- sonst nicht. Pech gehabt.
+"""
+
+
+  [[portfolio.portfolio_list]]
+  name = "Profikurs"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Social Walk"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Einzeltraining"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+  [[portfolio.portfolio_list]]
+  name = "Spezialthemen"
+  image = "img/pfote.jpg"
+  url = "https://airtable.com"
+  description = """
+Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+"""
+
+[pricing]
+enable = true
+title = "Preise"
+text = """
+- Welpenstunde: 12 €
+- Gruppenstunde 15€
+- 5er Karte*: 75 €
+- 10er Karte*: 140 € (abklären?!)
+- Einzelstunde: 55 €
+- Social-Walk: 20 €
+
+
+Bitte beachte: 
+* Die 5er und 10er Karten sind nicht übertragbar und gelten nur für Gruppenstunden. Die Karten haben eine Gültigkeit von x und y Wochen. 
+"""
+
+[contact]
+enable = true
+title = "Anfahrt & Kontakt"
+text = """
+Die Hundeschule befindet sich direkt an den Wentruper Bergen in Greven, stadtauswärts in Richtung Saerbeck.
+
+"""
+image = "img/anfahrt.png"
+
+[[contact.items]]
+icon = '<i class="fas fa-map-marker-alt"></i>'
+name = "Adresse"
+value = """Winkelhoek 9  
+48268 Greven
+"""
+
+[[contact.items]]
+icon = '<i class="far fa-envelope"></i>'
+name = "E-Mail"
+value = """
+[kathi@hundeschulepfotenglueck.de](mailto:kathi@hundeschulepfotenglueck.de)
+"""
+
+[[contact.items]]
+name = "USt.-Id."
+value = """
+123456789-987654321
+"""

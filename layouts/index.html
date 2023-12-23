@@ -48,7 +48,7 @@
     ============================== -->
 {{ if .Site.Data.content.courses.enable }}
 {{ with .Site.Data.content.courses }}
-<div class="courses container pt-5" id="courses">
+<section class="courses container pt-5" id="offers">
   <h2>{{ .title }}</h2>
   <p>{{ .text }}</p>
   <div class="row course-list">
@@ -59,10 +59,13 @@
       <img class="pb-2" src="{{ $small_image.RelPermalink }}" alt="{{ .name }}" />
       <p class="pb-2 name">{{ .name }}</p>
       <p>{{ .text }}</p>
+      {{ if .link }}
+      <a class="button" href="{{ .link }}">MEHR ERFAHREN</a>
+      {{ end }}
     </div>
   {{ end }}
   </div>
-</div>
+</section>
 {{ end }}
 {{ end }}
 
@@ -79,6 +82,22 @@
 </div>
 {{ end }} {{ end }}
 
+
+
+<ul id="og-grid" class="og-grid">
+    <li>
+        <div id="description" class="hidden">
+            a
+        </div>
+        <a
+                href="#"
+                >
+                BG
+        </a>
+    </li>
+</ul>
+
+
 <!-- =============================
   Start Portfolio
   =============================== -->
@@ -90,24 +109,34 @@
         <div class="col-12 text-center">
           <h2>{{ .title }}</h2>
         </div>
+        <div class="row container">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                {{ .text | markdownify }}
+            </div>
+        </div>
         <ul id="og-grid" class="og-grid">
           {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
           $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
           "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
           <li>
-            <p id="description-{{ $parsed_name | urlize }}" class="hidden">
+            <div id="description-{{ $parsed_name | urlize }}" class="hidden">
             {{ .description | markdownify }}
-            </p>
+            </div>
             <a
                 href="{{ .url }}"
                 data-largesrc="{{ $big_image.RelPermalink }}"
                 data-title="{{ .name }}"
-                data-buttontext="SEE SITE"
+                data-buttontext="ZUR ANMELDUNG"
                 >
                 <img
                     src="{{ $sm_image.RelPermalink }}"
                     alt="{{ $parsed_name }} image"
                     />
+                <div>
+                  <span>
+                    {{ .name }}
+                  </span>
+                </div>
             </a>
           </li>
           {{ end }}
@@ -120,4 +149,44 @@
     End Portfolio
     =============================== -->
 
-    {{- partial "footer.html" . -}} {{ end }}
+{{ if .Site.Data.content.pricing.enable }}
+{{ with .Site.Data.content.pricing }}
+<section class="pricing container pt-5" id="pricing">
+    <h2>{{ .title }}</h2>
+    {{ .text | markdownify }}
+</section>
+{{ end }}
+{{ end }}
+
+{{ if .Site.Data.content.contact.enable }}
+{{ with .Site.Data.content.contact }}
+<section class="contact container pt-5" id="contact">
+  <h2>{{ .title }}</h2>
+  <div class="location row">
+      <div class="col-md-6 col-sm-12">
+          {{ .text | markdownify }}
+      </div>
+      <div class="col-md-6 col-sm-12">
+          {{ $image := resources.Get .image }}
+          {{ $location_img := $image.Fill "384x384 jpg" }}
+          <img src="{{ $location_img.RelPermalink }}" alt="">
+      </div>
+  </div>
+  {{ range .items }}
+  <div class="row container">
+      <div class="key">
+          {{ if .icon }}
+          {{ .icon | safeHTML }}
+          {{ end }}
+          {{ .name | markdownify }}
+      </div>
+      <div class="value">
+          {{ .value | markdownify }}
+      </div>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}
+
+{{- partial "footer.html" . -}} {{ end }}
