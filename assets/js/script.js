@@ -5,10 +5,20 @@
 	----------------------------------*/
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
+
+    var map = L.map('location_map').setView([52.12104, 7.60573], 13);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([52.12104, 7.60573]).addTo(map)
+      .bindPopup('Hundeschule Pfotenglück')
+      .openPopup();
   });
 
   /*--------------------------------
-			End Preloader Animation
+                        End Preloader Animation
 		----------------------------------*/
 
   // -----------------------------
@@ -150,9 +160,9 @@
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
     if (img.indexOf('logo-dark.svg') != -1) {
-      document.getElementById(id).src = '/images/logo.svg';
+      document.getElementById(id).src = '/img/logo-text.png';
     } else {
-      document.getElementById(id).src = '/images/logo-dark.svg';
+      document.getElementById(id).src = '/img/logo-text.png';
     }
   }
 
@@ -165,7 +175,7 @@
         $('.menu-item').toggleClass('menu-item-transparent');
         $('.desktop-menu .hvr-underline-from-left').toggleClass('dark');
         // Toggle Logo
-        toggleLogoImg('desktop-logo');
+        // toggleLogoImg('desktop-logo');
         // Toggling Mobile Menu Visibility
         $('.mobile-menu').toggleClass('mobile-menu-fix');
         // Auto-Collapsing Mobile Menu When Left Open
@@ -201,27 +211,27 @@
 			Start About Me
 	----------------------------------*/
   // Initializing Skillbar Animation
-  $('.skill h2').waypoint({
-    handler: function (direction) {
-      if (direction == 'up') {
-        $('.skillbar').each(function () {
-          $(this).find('.skillbar-bar').css('width', '0');
-        });
-      } else if (direction == 'down') {
-        $('.skillbar').each(function () {
-          $(this)
-            .find('.skillbar-bar')
-            .animate(
-              {
-                width: jQuery(this).attr('data-percent')
-              },
-              2000
-            );
-        });
-      }
-    },
-    offset: 'bottom-in-view'
-  });
+  // $('.skill h2').waypoint({
+  //   handler: function (direction) {
+  //     if (direction == 'up') {
+  //       $('.skillbar').each(function () {
+  //         $(this).find('.skillbar-bar').css('width', '0');
+  //       });
+  //     } else if (direction == 'down') {
+  //       $('.skillbar').each(function () {
+  //         $(this)
+  //           .find('.skillbar-bar')
+  //           .animate(
+  //             {
+  //               width: jQuery(this).attr('data-percent')
+  //             },
+  //             2000
+  //           );
+  //       });
+  //     }
+  //   },
+  //   offset: 'bottom-in-view'
+  // });
   /*--------------------------------
 			End About Me
 	----------------------------------*/

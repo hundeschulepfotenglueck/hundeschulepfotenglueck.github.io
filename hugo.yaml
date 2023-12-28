@@ -16,10 +16,11 @@ params:
       - link: https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js
       - link: plugins/text-animation/text-animation.js
       - link: plugins/hugrid/hugrid.min.js
-  logo_light: images/logo.svg
-  logo_dark: images/logo-dark.svg
+  logo_light: /img/logo-text.png
+  logo_dark: /img/logo-dark.png
   copyright: Copyright Katharina Paul &copy;
-  description: Hundeschule Pfotenglück Coaching für Hundehalter
+  description: Hundeschule Pfotenglück Hundehalter-Coaching mit Kathi
+  titleshort: Pfotenglück
   author:
     name: Katharina Paul
     email: foo@bar.com
@@ -40,7 +41,7 @@ menu:
       URL: "#about"
       weight: 2
     - name: Angebote
-      URL: "#offers"
+      URL: "#portfolio"
       weight: 3
     - name: Preise
       URL: "#pricing"

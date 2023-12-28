@@ -4,6 +4,8 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+  <link href='/font/Amsterdam.css' rel='stylesheet'>
   <meta
     name="description"
     content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"
@@ -21,6 +23,8 @@
 
   {{ $styles := resources.Get "css/style.scss" | resources.ToCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen" />
+
+  <link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
 
   {{ "<!--Favicon-->" | safeHTML }}
 
@@ -65,4 +69,5 @@
       gtag('config', '{{ . }}');
     </script>
   {{ end }}
+  <script src="/plugins/leaflet/leaflet.js"></script>
 </head>

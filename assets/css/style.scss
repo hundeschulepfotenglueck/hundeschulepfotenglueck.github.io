@@ -11,6 +11,10 @@
     transform: translateY(0);
   }
 }
+
+$turquise: #27626a;
+$light_turquise: #7cc0c3;
+$mid_turquise: lighten($turquise, 10%);
 /*--------------------------------
    End Preloader & General Styling
 ----------------------------------*/
@@ -59,6 +63,16 @@
             list-style: disc;
             li {
                 display: list-item;
+                width: 100% !important;
+            }
+        }
+        ol {
+            list-style: arabic-index;
+            padding-top: 0;
+            padding-bottom: 0.5em;
+            li {
+                display: list-item;
+                width: 100% !important;
             }
         }
     }
@@ -79,8 +93,9 @@
         width: 100%;
         height: 100%;
         z-index: 10;
-        background: rgba(255, 255, 255, 0.5);
-        color: black;
+        background: rgba(255, 255, 255, 0.6);
+        color: $turquise;
+        font-family: 'Arvo';
         font-weight: bold;
         font-size: 2em;
       }
@@ -119,8 +134,12 @@ html {
   height: 100%;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  font-family: 'Amsterdam Three', serif;
+  font-weight: normal;
+  line-height: 2em;
 }
+
 * {
   outline: none;
 }
@@ -129,7 +148,10 @@ body {
   height: 100%;
 }
 a {
-  color: #00e;
+  color: $mid_turquise;
+  &:hover {
+      color: $turquise;
+  }
 }
 pre {
   padding: 16px;
@@ -359,7 +381,7 @@ p code {
   height: 100%;
   color: white;
   font-size: 30px;
-  font-family: 'Rubik', sans-serif !important;
+  font-family: 'Arvo', sans-serif !important;
   font-weight: 300;
   z-index: 10;
 }
@@ -372,7 +394,7 @@ p code {
     margin-top: 18px;
     text-decoration: none;
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Arvo', sans-serif;
     font-size: 19px;
     font-weight: 500;
     border: 2px solid white;
@@ -380,10 +402,29 @@ p code {
     transition: all 0.2s;
   }
 }
-.introduction {
-  font-size: 60px;
+.pre-introduction {
+  font-family: 'Arvo', monospace;
   font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 1;
+  line-height: 3em;
 }
+.introduction {
+  font-size: 2em;
+  font-weight: 600;
+
+  img {
+      height: 2em;
+      padding-right: 0.2em;
+  }
+}
+h1.introduction {
+    font-weight: normal;
+    color: $light_turquise;
+}
+
 .typist-blink {
   &:after {
     content: ' ';
@@ -395,16 +436,16 @@ p code {
 }
 .button {
   text-decoration: none;
-  color: #4d4d4d;
+  color: $turquise;
   font-weight: 700;
   margin-top: 15px;
   display: inline-block;
-  border: 2px solid #4d4d4d;
+  border: 2px solid $turquise;
   padding: 7px 10px;
   &:hover {
-    background: #6f6f6f;
+    background: $mid_turquise;
     color: #fff !important;
-    border: 2px solid #6f6f6f;
+    border: 2px solid $mid_turquise;
   }
 }
 input {
@@ -441,7 +482,7 @@ input {
         span {
           opacity: 0;
           top: 50%;
-          background: #6f6f6f;
+          background: $turquise;
           &:first-child {
             opacity: 1;
             transform: rotate(405deg);
@@ -462,7 +503,7 @@ input {
   &:hover {
     .burger-menu {
       span {
-        background: #6f6f6f;
+        background: $turquise;
       }
     }
   }
@@ -481,7 +522,7 @@ label {
   display: none;
   z-index: 11;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Arvo', sans-serif;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -566,7 +607,7 @@ label {
   }
   a {
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Arvo', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -656,10 +697,18 @@ label {
 .menu-container-transparent {
   background: rgba(0, 0, 0, 0.6);
 }
+.menu-normal .desktop-menu-logo {
+  img {
+    height: 50px;
+    margin-left: 20px;
+    display: block;
+  }
+}
 .desktop-menu-logo {
   img {
     height: 50px;
     margin-left: 20px;
+    display: none;
   }
   height: 100%;
   display: flex;
@@ -709,7 +758,7 @@ label {
   }
   .hvr-underline-from-left.dark {
     &:before {
-      background: #6f6f6f;
+      background: $turquise;
     }
   }
   display: flex;
@@ -722,7 +771,7 @@ label {
 }
 .menu-item-transparent.menu-item {
   a {
-    color: #6f6f6f;
+    color: $turquise;
   }
 }
 .mobile-menu {
@@ -767,7 +816,7 @@ label {
     transition: all 0.7s;
     &:hover {
       transform: scale(1.2);
-      color: #6f6f6f;
+      color: $turquise;
     }
   }
 }
@@ -782,7 +831,7 @@ label {
     display: block;
     width: 100%;
     height: 4px;
-    background: #6f6f6f;
+    background: $turquise;
     position: relative;
     top: 4px;
     transition: 2.5s;
@@ -842,12 +891,12 @@ label {
 .about-me-text {
   h1 {
     position: relative;
-    color: #6f6f6f;
+    color: $turquise;
     font-weight: 700;
     letter-spacing: 2px;
   }
   p {
-    color: #6f6f6f;
+    color: $turquise;
     font-size: 16px;
   }
 }
@@ -876,7 +925,7 @@ label {
 .experience,
 .skill {
   h2 {
-    color: #6f6f6f;
+    color: $turquise;
     font-weight: 700;
     letter-spacing: 2px;
   }
@@ -888,17 +937,17 @@ label {
   li {
     span {
       font-weight: 700;
-      color: #6f6f6f;
+      color: $turquise;
     }
     p {
-      color: #6f6f6f;
+      color: $turquise;
     }
   }
 }
 ul.experience-chart {
   li {
     padding-left: 30px;
-    border-left: 2px solid #6f6f6f;
+    border-left: 2px solid $turquise;
     padding-bottom: 10px;
     position: relative;
     &:last-child {
@@ -945,7 +994,7 @@ ul.experience-chart {
   align-items: center;
   width: 100%;
   background: #fff;
-  border: 2px solid #6f6f6f;
+  border: 2px solid $turquise;
   height: 18px;
   border-radius: 22px;
   transition: 0.2s linear;
@@ -980,7 +1029,7 @@ ul.experience-chart {
 .blog {
   background: #fff;
   h2 {
-    color: #6f6f6f;
+    color: $turquise;
     text-align: center;
     font-weight: 700;
     letter-spacing: 4px;
@@ -1062,7 +1111,7 @@ ul.experience-chart {
     text-align: center;
     font-size: 14px;
     margin-top: -10px;
-    color: #6f6f6f;
+    color: $turquise;
     font-weight: 700;
   }
   .fact-counter {
@@ -1136,6 +1185,7 @@ ul.experience-chart {
     font-size: 21px;
     margin-top: 7px;
     margin-bottom: 2px;
+    font-family: 'Arvo', monospace;
   }
   .head-holder {
     .hireMe {
@@ -1432,7 +1482,7 @@ ul.experience-chart {
 .courses {
     margin: 2em 0;
     h2 {
-        color: #6f6f6f;
+        color: $turquise;
         font-weight: 700;
         letter-spacing: 2px;
     }
@@ -1448,17 +1498,31 @@ ul.experience-chart {
 
             .name {
                 letter-spacing: 1px;
-                color: #6f6f6f;
+                color: $turquise;
                 font-weight: bold;
             }
         }
     }
 }
 
+h1, h2, h3, h4, h5 {
+    color: #27626a;
+}
+
 h2, h3, h4, h5 {
-    color: #6f6f6f;
+    color: $turquise;
+    font-family: 'Arvo', monospace;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
 }
 
 .contact {
@@ -1469,8 +1533,12 @@ h2, h3, h4, h5 {
         margin-top: 0.3em;
         .key {
             letter-spacing: 1px;
-            color: #6f6f6f;
+            color: $turquise;
             min-width: 10em;
         }
+    }
+
+    #location_map {
+      height: 350px;
     }
 }

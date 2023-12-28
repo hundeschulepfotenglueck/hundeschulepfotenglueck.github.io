@@ -1,100 +1,148 @@
 [hero]
-title = "Hundeschule Pfotenglück"
-occupations = [ "Coaching für Hundehalter" ]
+pre_title = "Hundeschule"
+title = "![](/img/paw-lightblue.png) Pfotenglück"
+occupations = [ "Hundehalter-Coaching mit Kathi", "Bindungsorientiertes Hundetraining", "Leidenschaft, die verbindet" ]
 bg_image = "img/kathi2.jpeg"
 mobile_bg_image = "img/kathi2.jpeg"
 
 [about]
 enable = true
 image = "img/kathi.jpeg"
-title = "Hi, ich bin Kathi!"
+title = "Herzlich willkommen, mein Name ist Katharina Paul."
 content = """
-**Lorem** ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ich bin 31 Jahre alt und arbeite hauptberuflich als Erzieherin in einer naturpädagogischen Kindertagesstätte. Zu mir gehören Bruno (geboren 2016, Galgo-Mix) und Greta (geboren 2018, Australian Shepherd).
+
+Ich werde oft als die "Frau im Hundewahn" bezeichnet, und irgendwie haben die meisten Leute damit wohl nicht unrecht. Meine Liebe zu Tieren war schon immer von großer Bedeutung für mich. Meine Eltern erinnern sich daran, dass ich kaum Bücher las, sondern mich stattdessen in Tierlexika vertiefte. Bereits als Kleinkind verbrachte ich meine Zeit damit, unter dem Tisch mit dem Hund meiner Großeltern zu spielen.
+
+Mit dem Einzug unseres ersten Familienhundes, dem liebenswerten "Filou" (geboren 2000, Bouvier-Golden-Retriever-Mix), als ich gerade einmal 8 Jahre alt war, konzentrierte ich mich zunehmend auf Hunde. Als Filou im Alter von 12 Jahren verstarb und meine Eltern mir klarmachten, dass kein weiterer Familienhund in Frage kam, wusste ich, dass nach meinem Auszug in meine erste eigene Wohnung bald ein Hund bei mir leben sollte. Im Mai 2016 zog schließlich der damals 11 Wochen alte Bruno bei uns ein.
+
+Parallel dazu begann meine aktive Teilnahme in der Hundeschule "Ritas Hunde ABC". Dort fühlte ich mich unglaublich wohl und hatte eine Menge Spaß daran, mit meinem Hund zu arbeiten. In meinen Spitzenzeiten besuchte ich die Hundeschule tatsächlich viermal pro Woche und belegte Kurse wie "Grunderziehung", "Hoopers", "Longieren" und "Ziel-Objektsuche".
+
+Mit dem Einzug von Greta im März 2018 intensivierte sich meine Zeit in der Hundeschule, und ich begann, mich in Disziplinen wie "Rally Obedience", "Agility" und "Begleithunde-Prüfungsvorbereitung" zu engagieren. Nebenbei bildete ich Greta auch als Therapiebegleithündin aus. 
+
+Ende des letzten Jahres beschloss ich schließlich, meinen langgehegten Traum zu verwirklichen und den Beruf des Hundetrainers zu ergreifen. Während meiner Ausbildung bei Ziemer und Falke durfte ich bei meiner damaligen Hundeschule einzelne Kurse geben und somit Praxiserfahrungen sammeln. Seit Januar arbeite ich nun selbstständig und nebenberuflich als Hundetrainerin und hoffe viele Mensch-Hund-Teams zu erreichen und glücklich zu machen.
 """
 
 [courses]
-enable = true
-title = "Kurse"
-text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+enable = false
+title = "Angebote"
+text = """
+Meine Angebote verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
+einen Link zur Anmeldung zum Kurs über Airtable.
+"""
 
   [[courses.list]]
   name = "Welpenstunde"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/pfote.jpg"
-
-  [[courses.list]]
-  name = "Basiskurs"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/pfote.jpg"
-
+  text = """
+  """
+  image = "img/angebot-welpenstunde.webp"
 
   [[courses.list]]
   name = "Grundkurs"
   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/pfote.jpg"
+  image = "img/angebot-grundkurs.webp"
   link = "/angebote/grundkurs"
+
+  [[courses.list]]
+  name = "Erweiterungskurs"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/angebot-erweiterungskurs.jpg"
+
+  [[courses.list]]
+  name = "Profikurs"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/angebot-profikurs.jpg"
+
 
   [[courses.list]]
   name = "Social Walk"
   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/pfote.jpg"
+  image = "img/angebot-socialwalk.jpg"
+
+  # [[courses.list]]
+  # name = "Begegnungstraining"
+  # text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  # image = "img/pfote.jpg"
 
   [[courses.list]]
-  name = "Begegnungstraining"
+  name = "Spezialthemen"
   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/pfote.jpg"
+  image = "img/angebot-spezial.webp"
+
+  [[courses.list]]
+  name = "Einzeltraining"
+  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
+  image = "img/angebot-einzeltraining.jpg"
 
 [portfolio]
 enable = true
-title = "Kurse"
+title = "Angebote"
 text = """
-Meine Kurse verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
+Die Anmeldungen zu meinen Angeboten verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
 einen Link zur Anmeldung zum Kurs über Airtable.
 """
 
   [[portfolio.portfolio_list]]
   name = "Welpenkurs"
-  image = "img/pfote.jpg"
-  url = "https://airtable.com"
+  image = "img/angebot-welpenstunde.webp"
+  url = "https://airtable.com/app47625QS45sjTxz/pags1TSgtN7VhbLwE/form"
   description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Herzlich willkommen zu meinem Welpenkurs – dem idealen Einstieg für die jüngsten Fellnasen in die aufregende Welt des Hundetrainings.
+
+  Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt. [Lies mehr...](/angebote/welpenkurs)
+
+  **Termin:**
+  - Sonntags um 11:15 Uhr
 """
 
   [[portfolio.portfolio_list]]
-  name = "Grundkurs"
-  image = "img/pfote.jpg"
-  url = "https://airtable.com"
+  name = "Basiskurs"
+  image = "img/angebot-grundkurs.webp"
+  url = "https://airtable.com/app47625QS45sjTxz/pag10nvQJ7apJ8UdK/form"
+  more_link = "/angebote/basiskurs"
   description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Herzlich willkommen zum Basiskurs, einem aufregenden Abenteuer, das nicht nur die Beziehung zwischen dir und deinem Vierbeiner vertiefen wird, sondern auch die Grundlagen für ein harmonisches Zusammenleben legt.
+
+  In meinem Basiskurs lege ich besonderen Wert darauf, nicht nur gehorsame Hunde zu formen, sondern auch ein tieferes Verständnis zwischen Mensch und Hund zu schaffen. [Lies mehr...](/angebote/basiskurs)
+  
+  **Termine:**
+  - Sonntags um 16:00 Uhr
+  - Sonntags um 17:00 Uhr
 """
 
   [[portfolio.portfolio_list]]
-  name = "Erweiterungskurs"
-  image = "img/pfote.jpg"
-  url = "https://airtable.com"
+  name = "Erweiterungs​kurs"
+  image = "img/angebot-erweiterungskurs.jpg"
+  url = "https://airtable.com/app47625QS45sjTxz/pagjE6hgcqEW2eO9l/form"
   description = """
-Erweiterungskurs, für die, die keinen Bock mehr auf Grundkurs haben.
+  Willkommen zu meinem Erweiterungskurs – einer spannenden Reise für Hundebesitzer, die bereits die Grundlagen beherrschen und ihre Bindung zu ihrem treuen Begleiter weiter stärken möchten.
 
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Dieser Kurs bietet nicht nur eine Vertiefung der Grundsignale, sondern auch anspruchsvollere Übungen, um die Fähigkeiten Ihres Hundes auf das nächste Level zu heben. [Lies mehr...](/angebote/erweiterungskurs)
 
-Termine
+  **Termin:**
 
-- Sonntags, 12:00 Uhr
-- sonst nicht. Pech gehabt.
+  - Sonntags um 10:00 Uhr
 """
 
 
   [[portfolio.portfolio_list]]
   name = "Profikurs"
-  image = "img/pfote.jpg"
-  url = "https://airtable.com"
+  image = "img/angebot-profikurs2.jpg"
+  url = "https://airtable.com/app47625QS45sjTxz/pagdbFwq1uP4PbiyO/form"
   description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Herzlich willkommen zu meinem Profikurs, einer exklusiven Gelegenheit für erfahrene Hundebesitzer, die ihre Fertigkeiten auf ein Expertenlevel heben möchten.
+
+  In diesem Kurs setzen wir hohe Maßstäbe, um die Bindung zwischen dir und deinem Hund zu vertiefen und gleichzeitig anspruchsvolle Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/profikurs)
+
+  **Termine:**  
+
+  - Mittwochs um 19:00 Uhr
+  - Sonntags um 18:00 Uhr
 """
 
   [[portfolio.portfolio_list]]
   name = "Social Walk"
-  image = "img/pfote.jpg"
+  image = "img/angebot-socialwalk.jpg"
   url = "https://airtable.com"
   description = """
 Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
@@ -102,7 +150,7 @@ Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit.
 
   [[portfolio.portfolio_list]]
   name = "Einzeltraining"
-  image = "img/pfote.jpg"
+  image = "img/angebot-einzeltraining.jpg"
   url = "https://airtable.com"
   description = """
 Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
@@ -110,7 +158,7 @@ Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit.
 
   [[portfolio.portfolio_list]]
   name = "Spezialthemen"
-  image = "img/pfote.jpg"
+  image = "img/angebot-spezial.webp"
   url = "https://airtable.com"
   description = """
 Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
@@ -121,7 +169,7 @@ enable = true
 title = "Preise"
 text = """
 - Welpenstunde: 12 €
-- Gruppenstunde 15€
+- Gruppenstunde 15 €
 - 5er Karte*: 75 €
 - 10er Karte*: 140 € (abklären?!)
 - Einzelstunde: 55 €
