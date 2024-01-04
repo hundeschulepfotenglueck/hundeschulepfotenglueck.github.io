@@ -6,12 +6,14 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+  <link href='/font/Amsterdam.css' rel='stylesheet'>
   <meta
     name="description"
-    content="Hundeschule Pfotenglück Coaching für Hundehalter"
+    content="Hundeschule Pfotenglück Hundehalter-Coaching mit Kathi"
   />
   
-    <meta name="author" content="Katharina Paul" />
+    <meta name="author" content="map[email:foo@bar.com name:Katharina Paul]" />
   
 
   <!-- plugins -->
@@ -34,12 +36,15 @@
   
   <link rel="stylesheet" href="/css/style.min.css" media="screen" />
 
+  <link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
+
   <!--Favicon-->
 
   
     <link rel="icon" type="image/png" href="" />
   
   
+  <script src="/plugins/leaflet/leaflet.js"></script>
 </head>
 <body> <!-- preloader start -->
 <div class="preloader">
@@ -49,6 +54,7 @@
 </div>
 <!-- preloader end --> 
 <section class="menu menu-fix" id="menu">
+  
   <nav>
     
     <div class="menu-container">
@@ -56,15 +62,35 @@
         <a href="/"
           ><img
             class="img-fluid"
-            src="/images/logo.svg"
+            src="/img/logo-text.png"
             alt="Hundeschule Pfotenglück"
             id="desktop-logo"
         /></a>
       </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         
-        <li class="menu-item hvr-underline-from-left 1">
-          <a href="#home">Home</a>
+        <li class="menu-item hvr-underline-from-left 2">
+                
+                <a href="#about">Über mich</a>
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 3">
+                
+                <a href="#portfolio">Angebote</a>
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 4">
+                
+                <a href="#pricing">Preise</a>
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 5">
+                
+                <a href="#contact">Anfahrt &amp; Kontakt</a>
+                
         </li>
         
       </ul>
@@ -81,7 +107,8 @@
           <a href="/"
             ><img
               class="img-fluid"
-              src="/images/logo-dark.svg"
+              src="/img/logo-dark.png"
+              style="display: none;"
               alt="Hundeschule Pfotenglück"
           /></a>
         </div>
@@ -90,7 +117,27 @@
             <ul class="mobile-menu-list">
               
               <li class="mobile-menu-item 1 mx-auto">
-                <a href="#home">Home</a>
+                
+                <a href="#about">Über mich</a>
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                <a href="#portfolio">Angebote</a>
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                <a href="#pricing">Preise</a>
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                <a href="#contact">Anfahrt &amp; Kontakt</a>
+                
               </li>
               
             </ul>
@@ -115,11 +162,11 @@
     
     <img
       class="d-none d-md-block"
-      src="/img/kathi.jpeg"
+      src="/img/kathi2.jpeg"
       alt="background"
     /><img
       class="d-md-none"
-      src="/img/kathi.jpeg"
+      src="/img/kathi2.jpeg"
       alt="background"
     />
   </div>
@@ -129,12 +176,13 @@
         class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container"
       >
         <div class="head-holder">
-          <h1 class="introduction">Hundeschule Pfotenglück</h1>
+          <div class="pre-introduction">Hundeschule</div>
+          <h1 class="introduction"><img src="/img/paw-lightblue.png" alt=""> Pfotenglück</h1>
           <div class="animated-text">
             <strong class="cd-headline clip">
               <span class="cd-words-wrapper">
                  
-                <b class="is-visible">Coaching für Hundehalter</b> 
+                <b class="is-visible">Hundehalter-Coaching mit Kathi</b>  <b>Bindungsorientiertes Hundetraining</b>  <b>Leidenschaft, die verbindet</b> 
               </span>
             </strong>
           </div>
@@ -159,8 +207,14 @@
         "
       >
         <div class="text-holder">
-          <h1>Das bin ich</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h2>Herzlich willkommen, mein Name ist Katharina Paul.</h2>
+          <p><p>Ich bin 31 Jahre alt und arbeite hauptberuflich als Erzieherin in einer naturpädagogischen Kindertagesstätte. Zu mir gehören Bruno (geboren 2016, Galgo-Mix) und Greta (geboren 2018, Australian Shepherd).</p>
+<p>Ich werde oft als die &ldquo;Frau im Hundewahn&rdquo; bezeichnet, und irgendwie haben die meisten Leute damit wohl nicht unrecht. Meine Liebe zu Tieren war schon immer von großer Bedeutung für mich. Meine Eltern erinnern sich daran, dass ich kaum Bücher las, sondern mich stattdessen in Tierlexika vertiefte. Bereits als Kleinkind verbrachte ich meine Zeit damit, unter dem Tisch mit dem Hund meiner Großeltern zu spielen.</p>
+<p>Mit dem Einzug unseres ersten Familienhundes, dem liebenswerten &ldquo;Filou&rdquo; (geboren 2000, Bouvier-Golden-Retriever-Mix), als ich gerade einmal 8 Jahre alt war, konzentrierte ich mich zunehmend auf Hunde. Als Filou im Alter von 12 Jahren verstarb und meine Eltern mir klarmachten, dass kein weiterer Familienhund in Frage kam, wusste ich, dass nach meinem Auszug in meine erste eigene Wohnung bald ein Hund bei mir leben sollte. Im Mai 2016 zog schließlich der damals 11 Wochen alte Bruno bei uns ein.</p>
+<p>Parallel dazu begann meine aktive Teilnahme in der Hundeschule &ldquo;Ritas Hunde ABC&rdquo;. Dort fühlte ich mich unglaublich wohl und hatte eine Menge Spaß daran, mit meinem Hund zu arbeiten. In meinen Spitzenzeiten besuchte ich die Hundeschule tatsächlich viermal pro Woche und belegte Kurse wie &ldquo;Grunderziehung&rdquo;, &ldquo;Hoopers&rdquo;, &ldquo;Longieren&rdquo; und &ldquo;Ziel-Objektsuche&rdquo;.</p>
+<p>Mit dem Einzug von Greta im März 2018 intensivierte sich meine Zeit in der Hundeschule, und ich begann, mich in Disziplinen wie &ldquo;Rally Obedience&rdquo;, &ldquo;Agility&rdquo; und &ldquo;Begleithunde-Prüfungsvorbereitung&rdquo; zu engagieren. Nebenbei bildete ich Greta auch als Therapiebegleithündin aus.</p>
+<p>Ende des letzten Jahres beschloss ich schließlich, meinen langgehegten Traum zu verwirklichen und den Beruf des Hundetrainers zu ergreifen. Während meiner Ausbildung bei Ziemer und Falke durfte ich bei meiner damaligen Hundeschule einzelne Kurse geben und somit Praxiserfahrungen sammeln. Seit Januar arbeite ich nun selbstständig und nebenberuflich als Hundetrainerin und hoffe viele Mensch-Hund-Teams zu erreichen und glücklich zu machen.</p>
+</p>
           
         </div>
       </div>
@@ -172,16 +226,302 @@
     </div>
      
 
-    <div class="row experience-skill">
-       
+
+
+
+
+
+
+
+
+
+
+   
+  <section class="portfolio" id="portfolio">
+    <div class="container-fluid text-center">
+      <div class="row portfolio-holder text-left">
+        <div class="col-12 text-center">
+          <h2>Angebote</h2>
+        </div>
+        <div class="row container">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p>Die Hundeschule bietet dir und deinem Vierbeiner eine individuelle Umgebung, in der wir bei jedem Wetter trainieren können. Der Außenplatz bietet viel Platz für Bewegung und Übungen im Freien. Und wenn das Wetter mal nicht mitspielt, wechseln wir einfach in die große Halle. Hier können wir bei Wind und Wetter trainieren und dein Hund kann sich voll und ganz auf die Übungen konzentrieren.</p>
+<p>Aber das ist noch nicht alles! Bei mir stehen auch spannende Ausflüge auf dem Programm. Wie wäre es zum Beispiel mit einem Stadtbesuch? Dein Hund lernt, sich in belebten Umgebungen zurechtzufinden und sich an verschiedene Situationen anzupassen.</p>
+<p>Die Anmeldungen zu meinen Angeboten verwalte ich über <em>Airtable</em>. Du kannst jeden Kurs unten anklicken und findest dort
+einen Link zur Anmeldung zum Kurs über Airtable.</p>
+
+            </div>
+        </div>
+        <ul id="og-grid" class="og-grid">
+              
+          <li>
+            <div id="description-welpenkurs" class="hidden">
+            <p>Herzlich willkommen zu meinem Welpenkurs – dem idealen Einstieg für die jüngsten Fellnasen in die aufregende Welt des Hundetrainings.</p>
+<p>Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt. <a href="/angebote/welpenkurs">Lies mehr&hellip;</a></p>
+<p><strong>Termin:</strong></p>
+<ul>
+<li>Sonntags um 11:15 Uhr</li>
+</ul>
+
+            </div>
+            <a
+                href="https://airtable.com/app47625QS45sjTxz/pags1TSgtN7VhbLwE/form"
+                data-largesrc="/img/angebot-welpenstunde_hu7f0299db218fd770da4ca77781d59d19_26020_564x500_fill_q95_h2_lanczos_smart1_2.webp"
+                data-title="Welpenkurs"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-welpenstunde_hu7f0299db218fd770da4ca77781d59d19_26020_394x350_fill_q95_h2_lanczos_smart1_2.webp"
+                    alt="Welpenkurs image"
+                    />
+                <div>
+                  <span>
+                    Welpenkurs
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-basiskurs" class="hidden">
+            <p>Herzlich willkommen zum Basiskurs, einem aufregenden Abenteuer, das nicht nur die Beziehung zwischen dir und deinem Vierbeiner vertiefen wird, sondern auch die Grundlagen für ein harmonisches Zusammenleben legt.</p>
+<p>In meinem Basiskurs lege ich besonderen Wert darauf, nicht nur gehorsame Hunde zu formen, sondern auch ein tieferes Verständnis zwischen Mensch und Hund zu schaffen. <a href="/angebote/basiskurs">Lies mehr&hellip;</a></p>
+<p><strong>Termine:</strong></p>
+<ul>
+<li>Sonntags um 16:00 Uhr</li>
+<li>Sonntags um 17:00 Uhr</li>
+</ul>
+
+            </div>
+            <a
+                href="https://airtable.com/app47625QS45sjTxz/pag10nvQJ7apJ8UdK/form"
+                data-largesrc="/img/angebot-grundkurs_hu41ab21df42256d34c41bc04e6bd9cacf_19452_564x500_fill_q95_h2_lanczos_smart1_2.webp"
+                data-title="Basiskurs"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-grundkurs_hu41ab21df42256d34c41bc04e6bd9cacf_19452_394x350_fill_q95_h2_lanczos_smart1_2.webp"
+                    alt="Basiskurs image"
+                    />
+                <div>
+                  <span>
+                    Basiskurs
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-erweiterungskurs" class="hidden">
+            <p>Willkommen zu meinem Erweiterungskurs – einer spannenden Reise für Hundebesitzer, die bereits die Grundlagen beherrschen und ihre Bindung zu ihrem treuen Begleiter weiter stärken möchten.</p>
+<p>Dieser Kurs bietet nicht nur eine Vertiefung der Grundsignale, sondern auch anspruchsvollere Übungen, um die Fähigkeiten Ihres Hundes auf das nächste Level zu heben. <a href="/angebote/erweiterungskurs">Lies mehr&hellip;</a></p>
+<p><strong>Termin:</strong></p>
+<ul>
+<li>Sonntags um 10:00 Uhr</li>
+</ul>
+
+            </div>
+            <a
+                href="https://airtable.com/app47625QS45sjTxz/pagjE6hgcqEW2eO9l/form"
+                data-largesrc="/img/angebot-erweiterungskurs_huadab84c5f9ccd921296563efabe4f08f_16663_564x500_fill_q95_h2_lanczos_smart1.webp"
+                data-title="Erweiterungs​kurs"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-erweiterungskurs_huadab84c5f9ccd921296563efabe4f08f_16663_394x350_fill_q95_h2_lanczos_smart1.webp"
+                    alt="Erweiterungs​kurs image"
+                    />
+                <div>
+                  <span>
+                    Erweiterungs​kurs
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-profikurs" class="hidden">
+            <p>Herzlich willkommen zu meinem Profikurs, einer exklusiven Gelegenheit für erfahrene Hundebesitzer, die ihre Fertigkeiten auf ein Expertenlevel heben möchten.</p>
+<p>In diesem Kurs setzen wir hohe Maßstäbe, um die Bindung zwischen dir und deinem Hund zu vertiefen und gleichzeitig anspruchsvolle Fertigkeiten zu perfektionieren. <a href="/angebote/profikurs">Lies mehr&hellip;</a></p>
+<p><strong>Termine:</strong></p>
+<ul>
+<li>Mittwochs um 19:00 Uhr</li>
+<li>Sonntags um 18:00 Uhr</li>
+</ul>
+
+            </div>
+            <a
+                href="https://airtable.com/app47625QS45sjTxz/pagdbFwq1uP4PbiyO/form"
+                data-largesrc="/img/angebot-profikurs2_hu4f494a07e43c3ee16cd684f59d8c928d_43112_564x500_fill_q95_h2_lanczos_smart1.webp"
+                data-title="Profikurs"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-profikurs2_hu4f494a07e43c3ee16cd684f59d8c928d_43112_394x350_fill_q95_h2_lanczos_smart1.webp"
+                    alt="Profikurs image"
+                    />
+                <div>
+                  <span>
+                    Profikurs
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-einzeltraining" class="hidden">
+            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+            </div>
+            <a
+                href="https://airtable.com"
+                data-largesrc="/img/angebot-einzeltraining_hue67f9e892243eb389df199b8f8841d9f_49480_564x500_fill_q95_h2_lanczos_smart1.webp"
+                data-title="Einzeltraining"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-einzeltraining_hue67f9e892243eb389df199b8f8841d9f_49480_394x350_fill_q95_h2_lanczos_smart1.webp"
+                    alt="Einzeltraining image"
+                    />
+                <div>
+                  <span>
+                    Einzeltraining
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-spezialthemen" class="hidden">
+            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+            </div>
+            <a
+                href="https://airtable.com"
+                data-largesrc="/img/angebot-spezial_hu5002bc7afaa144ad8fa98446c6e8f03a_19448_564x500_fill_q95_h2_lanczos_smart1_2.webp"
+                data-title="Spezialthemen"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-spezial_hu5002bc7afaa144ad8fa98446c6e8f03a_19448_394x350_fill_q95_h2_lanczos_smart1_2.webp"
+                    alt="Spezialthemen image"
+                    />
+                <div>
+                  <span>
+                    Spezialthemen
+                  </span>
+                </div>
+            </a>
+          </li>
+              
+          <li>
+            <div id="description-social-walk" class="hidden">
+            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+            </div>
+            <a
+                href="https://airtable.com"
+                data-largesrc="/img/angebot-socialwalk_hu781c1b6e1614a6da314cef89b15882af_155686_564x500_fill_q95_h2_lanczos_smart1.webp"
+                data-title="Social Walk"
+                data-buttontext="ZUR ANMELDUNG"
+                >
+                <img
+                    src="/img/angebot-socialwalk_hu781c1b6e1614a6da314cef89b15882af_155686_394x350_fill_q95_h2_lanczos_smart1.webp"
+                    alt="Social Walk image"
+                    />
+                <div>
+                  <span>
+                    Social Walk
+                  </span>
+                </div>
+            </a>
+          </li>
+          
+        </ul>
+        <div class="row container">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p>Hier geht&rsquo;s zum allgemeinen Buchungsformular:</p>
+<a class="button" href="https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form">BUCHUNG</a>
+
+
+            </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+   
+  
+
+
+
+<section class="pricing container pt-5" id="pricing">
+    <h2>Preise</h2>
+    <p>Im Folgenden findest du eine Übersicht meiner Preise und Leistungen:</p>
+<ul>
+<li>Welpenstunde: 12 €</li>
+<li>Gruppenstunde 15 €</li>
+<li>5er Karte*: 75 €</li>
+<li>10er Karte*: 140 € (abklären?!)</li>
+<li>Einzelstunde: 55 €</li>
+<li>Social-Walk: 20 €</li>
+</ul>
+<p>Bitte beachte: Die 5er und 10er Karten sind nicht übertragbar und gelten nur für Gruppenstunden. Die Karten haben eine Gültigkeit von x und y Wochen.</p>
+
 </section>
 
 
 
 
 
+<section class="contact container pt-5" id="contact">
+  <h2>Anfahrt &amp; Kontakt</h2>
+  <div class="location row">
+      <div class="col-md-6 col-sm-12">
+          Die Hundeschule befindet sich direkt an den Wentruper Bergen in Greven, stadtauswärts in Richtung Saerbeck.</p>
+
+<img style="max-width: 100%; width: auto; height: auto;" src="/img/logo_hu9d6238f633e2e350d0d6659ec14e0035_66922_0x0_q75_.jpg" width="1523" height="1005" alt="">
+      </div>
+      <div class="col-md-6 col-sm-12">
+          <div id="location_map">
+          </div>
+      </div>
+  </div>
+  
+  <div class="row container">
+      <div class="key">
+          
+          <i class="fas fa-map-marker-alt"></i>
+          
+          Adresse
+      </div>
+      <div class="value">
+          Winkelhoek 9<br>
+48268 Greven
+      </div>
+  </div>
+  
+  <div class="row container">
+      <div class="key">
+          
+          <i class="far fa-envelope"></i>
+          
+          E-Mail
+      </div>
+      <div class="value">
+          <a href="mailto:kathi@hundeschulepfotenglueck.de">kathi@hundeschulepfotenglueck.de</a>
+      </div>
+  </div>
+  
+  <div class="row container">
+      <div class="key">
+          
+          <i class="fas fa-gavel"></i>
+          
+          USt.-Id.
+      </div>
+      <div class="value">
+          123456789-987654321
+      </div>
+  </div>
+  
+</section>
 
 <div class="footer container text-center" id="contact">
   <ul class="footer-icons list-inline">
@@ -194,6 +534,8 @@
     
   </ul>
   <div class="credit">
+      <a href="/impressum">Impressum</a> |
+      <a href="/datenschutz">Datenschutz</a> |
     Copyright Katharina Paul ©
     <span id="current-year"></span>
   </div>

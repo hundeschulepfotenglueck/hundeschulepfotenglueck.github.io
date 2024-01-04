@@ -5,12 +5,14 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+  <link href='/font/Amsterdam.css' rel='stylesheet'>
   <meta
     name="description"
-    content="Hundeschule Pfotenglück Coaching für Hundehalter"
+    content="Hundeschule Pfotenglück Hundehalter-Coaching mit Kathi"
   />
   
-    <meta name="author" content="Katharina Paul" />
+    <meta name="author" content="map[email:foo@bar.com name:Katharina Paul]" />
   
 
   <!-- plugins -->
@@ -33,12 +35,15 @@
   
   <link rel="stylesheet" href="/css/style.min.css" media="screen" />
 
+  <link rel="stylesheet" href="/plugins/leaflet/leaflet.css" />
+
   <!--Favicon-->
 
   
     <link rel="icon" type="image/png" href="" />
   
   
+  <script src="/plugins/leaflet/leaflet.js"></script>
 </head>
 <body> <!-- preloader start -->
 <div class="preloader">
@@ -48,6 +53,7 @@
 </div>
 <!-- preloader end --> 
 <section class="menu menu-fix" id="menu">
+  
   <nav>
     
     <div class="menu-container">
@@ -55,15 +61,43 @@
         <a href="/"
           ><img
             class="img-fluid"
-            src="/images/logo.svg"
+            src="/img/logo-text.png"
             alt="Hundeschule Pfotenglück"
             id="desktop-logo"
         /></a>
       </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         
-        <li class="menu-item hvr-underline-from-left 1">
-          <a href="#home">Home</a>
+        <li class="menu-item hvr-underline-from-left 2">
+                
+                
+                <a href="/#about">Über mich</a>
+                
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 3">
+                
+                
+                <a href="/#portfolio">Angebote</a>
+                
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 4">
+                
+                
+                <a href="/#pricing">Preise</a>
+                
+                
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 5">
+                
+                
+                <a href="/#contact">Anfahrt &amp; Kontakt</a>
+                
+                
         </li>
         
       </ul>
@@ -80,7 +114,8 @@
           <a href="/"
             ><img
               class="img-fluid"
-              src="/images/logo-dark.svg"
+              src="/img/logo-dark.png"
+              style="display: none;"
               alt="Hundeschule Pfotenglück"
           /></a>
         </div>
@@ -89,7 +124,35 @@
             <ul class="mobile-menu-list">
               
               <li class="mobile-menu-item 1 mx-auto">
-                <a href="#home">Home</a>
+                
+                
+                <a href="/#about">Über mich</a>
+                
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                
+                <a href="/#portfolio">Angebote</a>
+                
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                
+                <a href="/#pricing">Preise</a>
+                
+                
+              </li>
+              
+              <li class="mobile-menu-item 1 mx-auto">
+                
+                
+                <a href="/#contact">Anfahrt &amp; Kontakt</a>
+                
+                
               </li>
               
             </ul>
@@ -124,6 +187,8 @@
     
   </ul>
   <div class="credit">
+      <a href="/impressum">Impressum</a> |
+      <a href="/datenschutz">Datenschutz</a> |
     Copyright Katharina Paul ©
     <span id="current-year"></span>
   </div>

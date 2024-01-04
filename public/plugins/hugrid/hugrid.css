@@ -10,6 +10,20 @@
 	display: inline-block;
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
+        width: 23%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .og-grid li {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .og-grid li {
+        width: 100%;
+    }
 }
 
 .og-grid li > a,
@@ -19,6 +33,10 @@
 	display: block;
   position: relative;
   max-width: 100%;
+}
+
+.og-grid li > a * {
+    overflow: hidden;
 }
 
 .og-grid li.og-expanded > a::after {

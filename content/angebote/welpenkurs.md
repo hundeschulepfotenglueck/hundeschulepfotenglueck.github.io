@@ -27,9 +27,9 @@ Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert a
 ### Wissensaustausch
 
 1. **Fragen und Diskussionen:** Der Kurs bietet Raum für Fragen und Diskussionen, um sicherzustellen, dass du nicht nur deinen Welpen besser kennenlernst, sondern auch als Hundebesitzer wertvolles Wissen erwirbst.
-2. **Tipps für zu Hause:** Wir geben praktische Tipps und Ratschläge für das Training zu Hause, um eine konsistente Erziehung und eine positive Entwicklung deines Welpen zu gewährleisten.
+2. **Tipps für zu Hause:** Ich gebe praktische Tipps und Ratschläge für das Training zu Hause, um eine konsistente Erziehung und eine positive Entwicklung deines Welpen zu gewährleisten.
 
-Wir freuen uns darauf, dich und deinen kleinen Fellfreund in unserem Welpenkurs willkommen zu heißen. Gemeinsam starten wir auf eine spannende Reise voller Lernen, Spaß und positiver Erlebnisse!
+Ich freue mich darauf, dich und deinen kleinen Fellfreund in unserem Welpenkurs willkommen zu heißen. Gemeinsam starten wir auf eine spannende Reise voller Lernen, Spaß und positiver Erlebnisse!
 
 ## Termin
 - Sonntags um 11:15 Uhr

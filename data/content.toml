@@ -23,63 +23,21 @@ Mit dem Einzug von Greta im März 2018 intensivierte sich meine Zeit in der Hund
 Ende des letzten Jahres beschloss ich schließlich, meinen langgehegten Traum zu verwirklichen und den Beruf des Hundetrainers zu ergreifen. Während meiner Ausbildung bei Ziemer und Falke durfte ich bei meiner damaligen Hundeschule einzelne Kurse geben und somit Praxiserfahrungen sammeln. Seit Januar arbeite ich nun selbstständig und nebenberuflich als Hundetrainerin und hoffe viele Mensch-Hund-Teams zu erreichen und glücklich zu machen.
 """
 
-[courses]
-enable = false
-title = "Angebote"
-text = """
-Meine Angebote verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
-einen Link zur Anmeldung zum Kurs über Airtable.
-"""
-
-  [[courses.list]]
-  name = "Welpenstunde"
-  text = """
-  """
-  image = "img/angebot-welpenstunde.webp"
-
-  [[courses.list]]
-  name = "Grundkurs"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-grundkurs.webp"
-  link = "/angebote/grundkurs"
-
-  [[courses.list]]
-  name = "Erweiterungskurs"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-erweiterungskurs.jpg"
-
-  [[courses.list]]
-  name = "Profikurs"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-profikurs.jpg"
-
-
-  [[courses.list]]
-  name = "Social Walk"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-socialwalk.jpg"
-
-  # [[courses.list]]
-  # name = "Begegnungstraining"
-  # text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  # image = "img/pfote.jpg"
-
-  [[courses.list]]
-  name = "Spezialthemen"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-spezial.webp"
-
-  [[courses.list]]
-  name = "Einzeltraining"
-  text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed"
-  image = "img/angebot-einzeltraining.jpg"
-
 [portfolio]
 enable = true
 title = "Angebote"
 text = """
+Die Hundeschule bietet dir und deinem Vierbeiner eine individuelle Umgebung, in der wir bei jedem Wetter trainieren können. Der Außenplatz bietet viel Platz für Bewegung und Übungen im Freien. Und wenn das Wetter mal nicht mitspielt, wechseln wir einfach in die große Halle. Hier können wir bei Wind und Wetter trainieren und dein Hund kann sich voll und ganz auf die Übungen konzentrieren.
+
+Aber das ist noch nicht alles! Bei mir stehen auch spannende Ausflüge auf dem Programm. Wie wäre es zum Beispiel mit einem Stadtbesuch? Dein Hund lernt, sich in belebten Umgebungen zurechtzufinden und sich an verschiedene Situationen anzupassen.
+
 Die Anmeldungen zu meinen Angeboten verwalte ich über *Airtable*. Du kannst jeden Kurs unten anklicken und findest dort
 einen Link zur Anmeldung zum Kurs über Airtable.
+"""
+text_below = """
+Hier geht's zum allgemeinen Buchungsformular:
+
+{{< button text="BUCHUNG" href="https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form" >}}
 """
 
   [[portfolio.portfolio_list]]
@@ -141,43 +99,53 @@ einen Link zur Anmeldung zum Kurs über Airtable.
 """
 
   [[portfolio.portfolio_list]]
-  name = "Social Walk"
-  image = "img/angebot-socialwalk.jpg"
-  url = "https://airtable.com"
-  description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-"""
-
-  [[portfolio.portfolio_list]]
   name = "Einzeltraining"
   image = "img/angebot-einzeltraining.jpg"
-  url = "https://airtable.com"
+  url = "mailto:info@hundeschulepfotenglueck.de"
   description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Willkommen zu unserem individuellen Einzelunterricht in der Hundeschule, einer exklusiven
+  Möglichkeit, gezielte Aufmerksamkeit und maßgeschneidertes Training für die spezifischen Bedürfnisse
+  deines Hundes zu erhalten.
+
+  Der Einzelunterricht ermöglicht es uns, uns ganz auf dich und deinen
+  vierbeinigen Freund zu konzentrieren, um gemeinsam an Herausforderungen zu arbeiten und die
+  gewünschten Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/einzeltraining)
 """
 
   [[portfolio.portfolio_list]]
-  name = "Spezialthemen"
+  name = "Workshops"
   image = "img/angebot-spezial.webp"
   url = "https://airtable.com"
   description = """
 Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 """
 
+  [[portfolio.portfolio_list]]
+  name = "Social Walk"
+  image = "img/angebot-socialwalk.jpg"
+  url = "https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form"
+  description = """
+  Herzlich willkommen zu meinem aufregenden Social-Walk, einer einzigartigen Gelegenheit für dich und
+  deinen Vierbeiner, gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln.
+  Dieser besondere Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische
+  Miteinander von Mensch und Hund in einer entspannten und sozialen Umgebung. [Lies mehr...](/angebote/socialwalk)
+"""
+
 [pricing]
 enable = true
 title = "Preise"
 text = """
+Im Folgenden findest du eine Übersicht meiner Preise und Leistungen:
+
 - Welpenstunde: 12 €
-- Gruppenstunde 15 €
+- Gruppenstunde 16 €
 - 5er Karte*: 75 €
-- 10er Karte*: 140 € (abklären?!)
+- 10er Karte*: 150 €
 - Einzelstunde: 55 €
 - Social-Walk: 20 €
 
 
-Bitte beachte: 
-* Die 5er und 10er Karten sind nicht übertragbar und gelten nur für Gruppenstunden. Die Karten haben eine Gültigkeit von x und y Wochen. 
+Bitte beachte: Die 5er und 10er Karten sind nicht übertragbar und gelten nur für Gruppenstunden. Die Karten haben eine Gültigkeit von x und y Wochen. 
 """
 
 [contact]
@@ -185,6 +153,8 @@ enable = true
 title = "Anfahrt & Kontakt"
 text = """
 Die Hundeschule befindet sich direkt an den Wentruper Bergen in Greven, stadtauswärts in Richtung Saerbeck.
+
+{{< imgproc src="img/logo.jpg" mode="resize 200x"  >}}
 
 """
 image = "img/anfahrt.png"
@@ -204,6 +174,14 @@ value = """
 """
 
 [[contact.items]]
+icon = '<i class="far fa-phone"></i>'
+name = "Telefon"
+value = """
+XXXXX-XXXXXXXXX
+"""
+
+[[contact.items]]
+icon = '<i class="fas fa-gavel"></i>'
 name = "USt.-Id."
 value = """
 123456789-987654321

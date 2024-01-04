@@ -7,7 +7,7 @@
     {{ if .Params.Image }}
     {{ if (fileExists (printf "assets/%s" .Params.Image)) }}
     {{ $image := resources.Get .Params.Image }}
-    {{ $header_img := $image.Fill "600x400 webp lanczos" }}
+    {{ $header_img := $image.Fill "546x500 webp lanczos" }}
     <img src="{{ $header_img.RelPermalink }}" alt="{{ .Title }}" />
     {{ else }}
     <img src="{{ .Params.image }}" alt="{{ .Title }}" />

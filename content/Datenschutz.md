@@ -32,3 +32,5 @@ Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung de
 Diese Datenschutzerklärung kann aktualisiert werden. Überprüfen Sie diese Seite daher regelmäßig, um sicherzustellen, dass Sie mit den aktuellen Bestimmungen vertraut sind.
 
 Für weitere Informationen zur Datenschutzrichtlinie von Airtable Inc., besuchen Sie bitte <https://www.airtable.com/company/privacy>.
+
+{{< imgproc src="img/logo.jpg" mode="resize 600x"  >}}
