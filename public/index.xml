@@ -11,6 +11,13 @@
     <lastBuildDate>Thu, 21 Dec 2023 22:58:08 +0100</lastBuildDate>
     <atom:link href="https://hundeschulepfotenglueck.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Workshops</title>
+      <link>https://hundeschulepfotenglueck.de/angebote/workshops/</link>
+      <pubDate>Sat, 13 Jan 2024 13:01:54 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
+      <guid>https://hundeschulepfotenglueck.de/angebote/workshops/</guid>
+      <description>Herzlich willkommen bei meinen Workshops. In meinen Workshops werden grundlegende Themen aus der Hundeerziehung aber auch aus der Hundebeschäftigung. Dieses Angebot findet hauptsächlich in den Sommermonaten statt und kann alleine oder auch als Zusatz zu einem Kurs gebucht werden. Hierbei handelt es sich um einzelne nicht aufeinander aufbauende Unterrichtseinheiten.&#xA;Themen sind zum Beispiel:&#xA;Leinenführigkeit Dieser Workshop bietet eine ausgewogene Mischung aus Theorie und Praxis um den Teilnehmern die grundlegenden Fähigkeiten zur Leinenführigkeit zu vermitteln und ihnen die Möglichkeit zu geben, das Gelernte sofort mit ihren Hunden anzuwenden.</description>
+    </item>
+    <item>
       <title>Social Walk</title>
       <link>https://hundeschulepfotenglueck.de/angebote/socialwalk/</link>
       <pubDate>Thu, 04 Jan 2024 22:12:01 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
@@ -22,7 +29,7 @@
       <link>https://hundeschulepfotenglueck.de/angebote/einzelcoaching/</link>
       <pubDate>Thu, 04 Jan 2024 08:57:58 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
       <guid>https://hundeschulepfotenglueck.de/angebote/einzelcoaching/</guid>
-      <description>Du möchtest gemeinsam mit mir in individuellen Coachings an dir und deinem Hund arbeiten und die Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu erhalten?&#xA;Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort - ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam an Herausforderungen zu arbeiten und die gewünschten Fertigkeiten zu perfektionieren.&#xA;Warum Einzelcoaching? Maßgeschneidertes Training: Jeder Hund ist einzigartig, und im Einzelunterricht können wir das Training genau auf die individuellen Bedürfnisse, Persönlichkeit und Fähigkeiten deines Hundes abstimmen.</description>
+      <description>Du möchtest gemeinsam mit mir in individuellen Coachings an der Bindung zwischen dir und deinem Hund und euren kleinen Baustellen arbeiten und die Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu erhalten?&#xA;Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort - ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam an Herausforderungen zu arbeiten und die gewünschten Fertigkeiten zu perfektionieren.</description>
     </item>
     <item>
       <title>Basiskurs</title>
@@ -50,14 +57,14 @@
       <link>https://hundeschulepfotenglueck.de/angebote/welpenkurs/</link>
       <pubDate>Sat, 23 Dec 2023 00:52:31 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
       <guid>https://hundeschulepfotenglueck.de/angebote/welpenkurs/</guid>
-      <description>Herzlich willkommen zu meinem Welpenkurs – dem idealen Einstieg für die jüngsten Fellnasen in die aufregende Welt des Hundetrainings.&#xA;Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt. Lies mehr&amp;hellip;&#xA;Kursinhalte Sozialisierung: In den ersten Monaten ist Sozialisierung entscheidend. Dein Welpe wird die Gelegenheit haben, andere Welpen und Menschen in einer sicheren Umgebung zu treffen, um positive Erfahrungen zu sammeln.</description>
+      <description>Herzlich willkommen zu meinem Welpenkurs – dem idealen Einstieg für die jüngsten Fellnasen in die aufregende Welt des Hundetrainings.&#xA;Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt.&#xA;Kursinhalte Sozialisierung: In den ersten Monaten ist Sozialisierung entscheidend. Dein Welpe wird die Gelegenheit haben, andere Welpen und Menschen in einer sicheren Umgebung zu treffen, um positive Erfahrungen zu sammeln.</description>
     </item>
     <item>
       <title>Datenschutz</title>
       <link>https://hundeschulepfotenglueck.de/datenschutz/</link>
       <pubDate>Sat, 23 Dec 2023 00:08:38 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
       <guid>https://hundeschulepfotenglueck.de/datenschutz/</guid>
-      <description>Zur Verwaltung der Kurse werden die Dienste von Airtable Inc. zur Verarbeitung von Daten genutzt. Airtable Inc. ist ein Drittanbieter, der uns bei der Organisation und Speicherung von Informationen unterstützt. Bitte beachten Sie die Datenschutzbestimmungen von Airtable Inc. unter https://www.airtable.com/company/privacy.&#xA;Welche Daten werden erfasst? Persönliche Informationen wie Name, E-Mail-Adresse, Telefonnummer, etc. Technische Informationen wie IP-Adresse, Browsertyp, Gerätetyp, etc. Wie werden die Daten genutzt? Die erfassten Daten dienen ausschließlich dem Zweck, [Zweck der Datenerfassung, z.</description>
+      <description>Diese Website wird durch die Server des Dienstleisters GitHub Inc. bereitgestellt. Die bei der Verwendung dieser Webseite anfallenden Metadaten werden dabei möglicherweise gespeichert. Bitte beachten Sie die Datenschutbestimmungen von GitHub Inc. unter https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement.&#xA;Zur Verwaltung der Kurse werden die Dienste von Airtable Inc. zur Verarbeitung von Daten genutzt. Airtable Inc. ist ein Drittanbieter, der uns bei der Organisation und Speicherung von Informationen unterstützt. Bitte beachten Sie die Datenschutzbestimmungen von Airtable Inc.</description>
     </item>
     <item>
       <title>Impressum</title>
