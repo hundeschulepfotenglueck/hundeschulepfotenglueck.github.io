@@ -31,7 +31,7 @@ params:
     preloader: img/preloader.gif
   social:
     - icon: fab fa-instagram
-      link: "#"
+      link: "https://www.instagram.com/pfotenglueck.hundeschule/"
 menu:
   main:
     # - name: Home
@@ -49,3 +49,6 @@ menu:
     - name: Anfahrt & Kontakt
       URL: "#contact"
       weight: 5
+    - name: Links & Downloads
+      URL: "#misc"
+      weight: 6

@@ -10,7 +10,7 @@ enable = true
 image = "img/kathi.jpeg"
 title = "Herzlich willkommen, mein Name ist Katharina Paul."
 content = """
-Ich bin 31 Jahre alt und arbeite hauptberuflich als Erzieherin in einer naturpädagogischen Kindertagesstätte. Zu mir gehören Bruno (geboren 2016, Galgo-Mix) und Greta (geboren 2018, Australian Shepherd).
+Ich bin 31 Jahre alt und arbeite hauptberuflich als Erzieherin in einer naturpädagogischen Kindertagesstätte. Zu mir gehören der Tierschutzhund Bruno (geboren 2016, Galgo-Mix) und Greta (geboren 2018, Australian Shepherd).
 
 Ich werde oft als die "Frau im Hundewahn" bezeichnet, und irgendwie haben die meisten Leute damit wohl nicht unrecht. Meine Liebe zu Tieren war schon immer von großer Bedeutung für mich. Meine Eltern erinnern sich daran, dass ich kaum Bücher las, sondern mich stattdessen in Tierlexika vertiefte. Bereits als Kleinkind verbrachte ich meine Zeit damit, unter dem Tisch mit dem Hund meiner Großeltern zu spielen.
 
@@ -106,9 +106,9 @@ Hier geht's zum allgemeinen Buchungsformular:
   [[portfolio.portfolio_list]]
   name = "Einzelcoaching"
   image = "img/angebot-einzeltraining.jpg"
-  url = "mailto:info@hundeschulepfotenglueck.de"
+  # url = "mailto:info@hundeschulepfotenglueck.de"
   description = """
-  Du möchtest gemeinsam mit mir in individuellen Coachings an der Bindung von dir und deinem Hund und euren kleinen Baustellen arbeiten und die
+  Du möchtest gemeinsam mit mir in individuellen Coachings an der Bindung zwischen dir und deinem Hund und euren kleinen Baustellen arbeiten und die
   Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu
   erhalten? 
   
@@ -120,20 +120,25 @@ Hier geht's zum allgemeinen Buchungsformular:
   [[portfolio.portfolio_list]]
   name = "Workshops"
   image = "img/angebot-spezial.webp"
-  url = "https://airtable.com"
+  # url = "https://airtable.com"
   description = """
-Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+  Herzlich willkommen bei meinen Workshops. In meinen Workshops werden grundlegende Themen aus der
+  Hundeerziehung aber auch aus der Hundebeschäftigung. Dieses Angebot findet hauptsächlich in den
+  Sommermonaten statt und kann alleine oder auch als Zusatz zu einem Kurs gebucht werden. Hierbei
+  handelt es sich um einzelne nicht aufeinander aufbauende Unterrichtseinheiten.  [Lies mehr...](/angebote/workshops)
 """
 
   [[portfolio.portfolio_list]]
   name = "Social Walk"
   image = "img/angebot-socialwalk.jpg"
-  url = "https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form"
+  # url = "https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form"
   description = """
   Social-Walk - eine aufregende und einzigartigen Gelegenheit für dich und deinen Vierbeiner,
   gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln. Dieser besondere
   Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische Miteinander von
   Mensch und Hund in einer entspannten und sozialen Umgebung. [Lies mehr...](/angebote/socialwalk)
+
+  Die Social-Walks werden in den Sommermonaten regelmäßig angeboten.
 """
 
 [pricing]
@@ -185,9 +190,43 @@ value = """
 0157 30792731
 """
 
-[[contact.items]]
-icon = '<i class="fas fa-gavel"></i>'
-name = "USt.-Id."
-value = """
-123456789-987654321
+# [[contact.items]]
+# icon = '<i class="fas fa-gavel"></i>'
+# name = "USt.-Id."
+# value = """
+# 123456789-987654321
+# """
+
+[miscs]
+enable = true
+
+[[miscs.section]]
+id = "misc"
+title = "Links"
+text = """
 """
+image = "img/anfahrt.png"
+
+[[miscs.section.items]]
+icon = '<i class="fas fa-arrow-up" style="transform: rotate(45deg);"></i>'
+text = "[Ritas Hoopers Hundetraining](http://ritas-hoopers-hundetraining.de/)"
+
+[[miscs.section.items]]
+icon = '<i class="fas fa-arrow-up" style="transform: rotate(45deg);"></i>'
+text = "[Jennifer Lührs Photography](https://www.luehrs-photography.de/)"
+
+
+[[miscs.section]]
+id = "downloads"
+title = "Downloads"
+text = """
+"""
+image = "img/anfahrt.png"
+
+[[miscs.section.items]]
+icon = '<i class="fas fa-download"></i>'
+text = "[Download Haftungsausschluss](/downloads/Haftungsausschluss.pdf)"
+
+[[miscs.section.items]]
+icon = '<i class="fas fa-download"></i>'
+text = "[Download Einwilligungserklärung Datenschutz](/downloads/DatenschutzEinwilligung.pdf.pdf)"

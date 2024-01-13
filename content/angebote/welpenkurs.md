@@ -7,7 +7,7 @@ image: "img/angebot-welpenstunde.webp"
 
 Herzlich willkommen zu meinem Welpenkurs – dem idealen Einstieg für die jüngsten Fellnasen in die aufregende Welt des Hundetrainings.
 
-Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt. [Lies mehr...](/angebote/welpenkurs)
+Dieser Kurs bietet nicht nur grundlegende Erziehungselemente, sondern fördert auch eine positive Bindung zwischen dir und deinem Welpen, während er spielerisch die ersten Schritte in die Welt des Gehorsams unternimmt.
 
 ## Kursinhalte
 

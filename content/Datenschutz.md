@@ -4,7 +4,15 @@ date = 2023-12-23T00:08:38+01:00
 draft = false
 +++
 
-Zur Verwaltung der Kurse werden die Dienste von Airtable Inc. zur Verarbeitung von Daten genutzt. Airtable Inc. ist ein Drittanbieter, der uns bei der Organisation und Speicherung von Informationen unterstützt. Bitte beachten Sie die Datenschutzbestimmungen von Airtable Inc. unter <https://www.airtable.com/company/privacy>.
+Diese Website wird durch die Server des Dienstleisters GitHub Inc. bereitgestellt. Die bei der
+Verwendung dieser Webseite anfallenden Metadaten werden dabei möglicherweise gespeichert. Bitte
+beachten Sie die Datenschutbestimmungen von GitHub Inc. unter
+<https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement>.
+
+Zur Verwaltung der Kurse werden die Dienste von Airtable Inc. zur Verarbeitung von Daten genutzt.
+Airtable Inc. ist ein Drittanbieter, der uns bei der Organisation und Speicherung von Informationen
+unterstützt. Bitte beachten Sie die Datenschutzbestimmungen von Airtable Inc. unter
+<https://www.airtable.com/company/privacy>.
 
 ## Welche Daten werden erfasst?
 
@@ -13,11 +21,7 @@ Zur Verwaltung der Kurse werden die Dienste von Airtable Inc. zur Verarbeitung v
 
 ## Wie werden die Daten genutzt?
 
-Die erfassten Daten dienen ausschließlich dem Zweck, \[Zweck der Datenerfassung, z. B. Anfragen zu beantworten, Newsletter zu versenden, etc.\]. Wir geben Ihre Daten nicht ohne Ihre Zustimmung an Dritte weiter.
-
-## Cookies
-
-Diese Webseite verwendet möglicherweise Cookies, um die Benutzererfahrung zu verbessern. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden. Sie können die Verwendung von Cookies in Ihren Browsereinstellungen deaktivieren.
+Die erfassten Daten dienen ausschließlich dem Zweck, der Verwaltung der Kursanmeldungen und gegebenenfalls zur Kommunikation mit den Teilnehmern. Wir geben Ihre Daten nicht ohne Ihre Zustimmung an Dritte weiter.
 
 ## Externe Links
 

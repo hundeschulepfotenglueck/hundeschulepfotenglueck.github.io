@@ -109,7 +109,7 @@
             {{ .description | markdownify }}
             </div>
             <a
-                href="{{ .url }}"
+                {{ if .url }}href="{{ .url }}"{{ end }}
                 data-largesrc="{{ $big_image.RelPermalink }}"
                 data-title="{{ if .inner_name }}{{ .inner_name }}{{ else }}{{ .name }}{{ end }}"
                 data-buttontext="ZUR ANMELDUNG"
@@ -177,6 +177,31 @@
   {{ end }}
 </section>
 {{ end }}
+{{ end }}
+
+{{ if .Site.Data.content.miscs.enable }}
+<section class="container pt-5" id="misc">
+    <div class="row">
+        {{ range .Site.Data.content.miscs.section }}
+        <div class="col-md-6 col-sm-12 mb-4">
+            <h2>{{ .title }}</h2>
+            <div class="row">
+                {{ .text | markdownify }}
+            </div>
+            {{ range .items }}
+            <div class="row container">
+                {{ if .icon }}
+                <span class="pr-2">
+                    {{ .icon | safeHTML }}
+                </span>
+                {{ end }}
+                {{ .text | markdownify }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</section>
 {{ end }}
 
 {{- partial "footer.html" . -}} {{ end }}

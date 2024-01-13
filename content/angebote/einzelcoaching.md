@@ -7,9 +7,9 @@ description: "This is meta description"
 image: "img/angebot-einzeltraining.jpg"
 ---
 
-Du möchtest gemeinsam mit mir in individuellen Coachings an dir und deinem Hund arbeiten und die
-Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu
-erhalten? 
+Du möchtest gemeinsam mit mir in individuellen Coachings an der Bindung zwischen dir und deinem Hund
+und euren kleinen Baustellen arbeiten und die Möglichkeit nutzen, ein maßgeschneidertes Training für
+die spezifischen Bedürfnisse deines Hundes zu erhalten? 
 
 Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort -
 ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam
