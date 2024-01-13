@@ -8,10 +8,10 @@ image: "img/angebot-socialwalk.jpg"
 ---
 
 
-Herzlich willkommen zu meinem aufregenden Social-Walk, einer einzigartigen Gelegenheit für dich und
-deinen Vierbeiner, gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln.
-Dieser besondere Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische
-Miteinander von Mensch und Hund in einer entspannten und sozialen Umgebung.
+Social-Walk - eine aufregende und einzigartigen Gelegenheit für dich und deinen Vierbeiner,
+gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln. Dieser besondere
+Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische Miteinander von
+Mensch und Hund in einer entspannten und sozialen Umgebung.
 
 ## Das Besondere am Social-Walk:
 
@@ -27,7 +27,7 @@ Miteinander von Mensch und Hund in einer entspannten und sozialen Umgebung.
 
 ## Ablauf des Social-Walks:
 
-1. **Begrüßung und Kennenlernen:** Wir starten mit einer herzlichen Begrüßung und einer kurzen
+1. **Begrüßung und Kennenlernen:** Wir starten mit einer Begrüßung und einer kurzen
    Vorstellungsrunde, um die Teilnehmer besser kennenzulernen und eine angenehme Atmosphäre zu
    schaffen.
 2. **Entspannter Spaziergang:** Der Social-Walk führt durch abwechslungsreiche Umgebungen, wobei
@@ -46,8 +46,8 @@ Miteinander von Mensch und Hund in einer entspannten und sozialen Umgebung.
 2. **Leinenführigkeit gewünscht:** Eine grundlegende Leinenführigkeit wird empfohlen, um einen
    reibungslosen Ablauf des Spaziergangs zu gewährleisten.
 
-Der Social-Walk ist nicht nur eine Möglichkeit für deinen Hund, neue Orte kennen zu lernen, sondern
+Der Social-Walk ist nicht nur eine Möglichkeit für deinen Hund, neue Orte kennenzulernen, sondern
 auch für dich, andere Hundebesitzer kennenzulernen und wertvolle Erkenntnisse für den gemeinsamen
-Alltag zu gewinnen. Ich laden dich herzlich dazu ein, an unserem nächsten Social-Walk teilzunehmen
-und gemeinsam mit uns eine positive und unterstützende Hundegemeinschaft zu erleben! Die
-Social-Walks werden in den Sommermonaten regelmäßig angeboten.
+Alltag zu gewinnen. Ich freue mich, wenn du und dein Vierbeiner an einem meiner nächsten
+Social-Walks teilnehmen und gemeinsam mit mir eine positive und unterstützende Hundegemeinschaft
+erlebt! Die Social-Walks werden in den Sommermonaten regelmäßig angeboten.

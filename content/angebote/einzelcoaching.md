@@ -1,5 +1,5 @@
 ---
-title: "Einzeltraining"
+title: "Einzelcoaching"
 date: 2024-01-04T08:57:58+01:00
 draft: false
 # description
@@ -7,13 +7,15 @@ description: "This is meta description"
 image: "img/angebot-einzeltraining.jpg"
 ---
 
-Willkommen zu unserem individuellen Einzelunterricht in der Hundeschule, einer exklusiven
-Möglichkeit, gezielte Aufmerksamkeit und maßgeschneidertes Training für die spezifischen Bedürfnisse
-deines Hundes zu erhalten. Der Einzelunterricht ermöglicht es uns, uns ganz auf dich und deinen
-vierbeinigen Freund zu konzentrieren, um gemeinsam an Herausforderungen zu arbeiten und die
-gewünschten Fertigkeiten zu perfektionieren.
+Du möchtest gemeinsam mit mir in individuellen Coachings an dir und deinem Hund arbeiten und die
+Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu
+erhalten? 
 
-## Warum Einzelunterricht?
+Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort -
+ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam
+an Herausforderungen zu arbeiten und die gewünschten Fertigkeiten zu perfektionieren. 
+
+## Warum Einzelcoaching?
 
 1. **Maßgeschneidertes Training:** Jeder Hund ist einzigartig, und im Einzelunterricht können wir das
    Training genau auf die individuellen Bedürfnisse, Persönlichkeit und Fähigkeiten deines Hundes
@@ -34,7 +36,7 @@ gewünschten Fertigkeiten zu perfektionieren.
 
 Erfolg auf ganzer Linie:
 
-Unser Einzelunterricht ist der Schlüssel zu einem erfolgreichen und positiven Trainingserlebnis für
-dich und deinen Hund. Lass uns gemeinsam an den Zielen arbeiten, die für dich am wichtigsten sind,
-und eine nachhaltige Basis für eine starke Mensch-Hund-Beziehung schaffen. Ich freue mich darauf,
-dich und deinen Hund in individuellen Einzelstunden zu unterstützen und zu begleiten!
+Das Einzelcoaching ist der Schlüssel zu einem erfolgreichen und positiven Trainingserlebnis für dich
+und deinen Hund. Lass uns gemeinsam an den Zielen arbeiten, die für dich am wichtigsten sind, und
+eine nachhaltige Basis für eine starke Mensch-Hund-Beziehung schaffen. Ich freue mich darauf, dich
+und deinen Hund in individuellen Einzelstunden zu unterstützen und zu begleiten!

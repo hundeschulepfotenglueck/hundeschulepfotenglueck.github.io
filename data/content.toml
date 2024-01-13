@@ -73,9 +73,11 @@ Hier geht's zum allgemeinen Buchungsformular:
   image = "img/angebot-erweiterungskurs.jpg"
   url = "https://airtable.com/app47625QS45sjTxz/pagjE6hgcqEW2eO9l/form"
   description = """
-  Willkommen zu meinem Erweiterungskurs – einer spannenden Reise für Hundebesitzer, die bereits die Grundlagen beherrschen und ihre Bindung zu ihrem treuen Begleiter weiter stärken möchten.
+  Willkommen zu meinem Erweiterungskurs – einer spannenden Reise für Hundebesitzer, die bereits die
+  Grundlagen beherrschen und ihre Bindung zu ihrem treuen Begleiter weiter stärken möchten.
 
-  Dieser Kurs bietet nicht nur eine Vertiefung der Grundsignale, sondern auch anspruchsvollere Übungen, um die Fähigkeiten Ihres Hundes auf das nächste Level zu heben. [Lies mehr...](/angebote/erweiterungskurs)
+  Dieser Kurs bietet nicht nur eine Vertiefung der Grundsignale, sondern auch anspruchsvollere
+  Übungen, um die Fähigkeiten Ihres Hundes auf das nächste Level zu heben. [Lies mehr...](/angebote/erweiterungskurs)
 
   **Termin:**
 
@@ -88,9 +90,12 @@ Hier geht's zum allgemeinen Buchungsformular:
   image = "img/angebot-profikurs2.jpg"
   url = "https://airtable.com/app47625QS45sjTxz/pagdbFwq1uP4PbiyO/form"
   description = """
-  Herzlich willkommen zu meinem Profikurs, einer exklusiven Gelegenheit für erfahrene Hundebesitzer, die ihre Fertigkeiten auf ein Expertenlevel heben möchten.
+  Herzlich willkommen zu meinem Profikurs, einer exklusiven Gelegenheit für erfahrene Hundebesitzer,
+  die ihre Fertigkeiten auf ein Expertenlevel heben möchten.
 
-  In diesem Kurs setzen wir hohe Maßstäbe, um die Bindung zwischen dir und deinem Hund zu vertiefen und gleichzeitig anspruchsvolle Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/profikurs)
+  In diesem Kurs setzen wir hohe Maßstäbe, um die Bindung zwischen dir und deinem Hund zu vertiefen
+  und gleichzeitig anspruchsvolle Fertigkeiten zu perfektionieren. [Lies
+  mehr...](/angebote/profikurs)
 
   **Termine:**  
 
@@ -99,17 +104,17 @@ Hier geht's zum allgemeinen Buchungsformular:
 """
 
   [[portfolio.portfolio_list]]
-  name = "Einzeltraining"
+  name = "Einzelcoaching"
   image = "img/angebot-einzeltraining.jpg"
   url = "mailto:info@hundeschulepfotenglueck.de"
   description = """
-  Willkommen zu unserem individuellen Einzelunterricht in der Hundeschule, einer exklusiven
-  Möglichkeit, gezielte Aufmerksamkeit und maßgeschneidertes Training für die spezifischen Bedürfnisse
-  deines Hundes zu erhalten.
-
-  Der Einzelunterricht ermöglicht es uns, uns ganz auf dich und deinen
-  vierbeinigen Freund zu konzentrieren, um gemeinsam an Herausforderungen zu arbeiten und die
-  gewünschten Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/einzeltraining)
+  Du möchtest gemeinsam mit mir in individuellen Coachings an der Bindung von dir und deinem Hund und euren kleinen Baustellen arbeiten und die
+  Möglichkeit nutzen, ein maßgeschneidertes Training für die spezifischen Bedürfnisse deines Hundes zu
+  erhalten? 
+  
+  Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort -
+  ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam
+  an Herausforderungen zu arbeiten und die gewünschten Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/einzelcoaching)
 """
 
   [[portfolio.portfolio_list]]
@@ -125,10 +130,10 @@ Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit.
   image = "img/angebot-socialwalk.jpg"
   url = "https://airtable.com/app47625QS45sjTxz/pagx7Wa9UmtYHXdV4/form"
   description = """
-  Herzlich willkommen zu meinem aufregenden Social-Walk, einer einzigartigen Gelegenheit für dich und
-  deinen Vierbeiner, gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln.
-  Dieser besondere Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische
-  Miteinander von Mensch und Hund in einer entspannten und sozialen Umgebung. [Lies mehr...](/angebote/socialwalk)
+  Social-Walk - eine aufregende und einzigartigen Gelegenheit für dich und deinen Vierbeiner,
+  gemeinsam die Welt zu erkunden und dabei wichtige soziale Erfahrungen zu sammeln. Dieser besondere
+  Spaziergang ist mehr als nur ein einfacher Spaziergang; er fördert das harmonische Miteinander von
+  Mensch und Hund in einer entspannten und sozialen Umgebung. [Lies mehr...](/angebote/socialwalk)
 """
 
 [pricing]
@@ -138,7 +143,7 @@ text = """
 Im Folgenden findest du eine Übersicht meiner Preise und Leistungen:
 
 - Welpenstunde: 12 €
-- Gruppenstunde 16 €
+- Gruppenstunde: 16 €
 - 5er Karte*: 75 €
 - 10er Karte*: 150 €
 - Einzelstunde: 55 €
@@ -177,7 +182,7 @@ value = """
 icon = '<i class="far fa-phone"></i>'
 name = "Telefon"
 value = """
-XXXXX-XXXXXXXXX
+0157 30792731
 """
 
 [[contact.items]]
