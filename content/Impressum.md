@@ -11,4 +11,4 @@ draft = false
 \[Deine E-Mail-Adresse\]  
 \[Deine Telefonnummer\]
 
-{{< imgproc src="img/logo.jpg" mode="resize 600x"  >}}
+{{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}

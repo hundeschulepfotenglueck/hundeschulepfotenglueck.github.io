@@ -115,6 +115,8 @@ Hier geht's zum allgemeinen Buchungsformular:
   Kein Problem! Das Einzelcoaching - an einem individuell an das Training angepassten Ort -
   ermöglicht es uns, uns ganz auf dich und deinen vierbeinigen Freund zu konzentrieren, um gemeinsam
   an Herausforderungen zu arbeiten und die gewünschten Fertigkeiten zu perfektionieren. [Lies mehr...](/angebote/einzelcoaching)
+
+  Du hast Interesse an einem Einzelcoaching? Ruf mich gerne unter 0157 30792731 an und wir finden einen passenden Termin!
 """
 
   [[portfolio.portfolio_list]]
@@ -123,9 +125,9 @@ Hier geht's zum allgemeinen Buchungsformular:
   # url = "https://airtable.com"
   description = """
   Herzlich willkommen bei meinen Workshops. In meinen Workshops werden grundlegende Themen aus der
-  Hundeerziehung aber auch aus der Hundebeschäftigung. Dieses Angebot findet hauptsächlich in den
+  Hundeerziehung aber auch aus der Hundebeschäftigung thematisiert. Dieses Angebot findet hauptsächlich in den
   Sommermonaten statt und kann alleine oder auch als Zusatz zu einem Kurs gebucht werden. Hierbei
-  handelt es sich um einzelne nicht aufeinander aufbauende Unterrichtseinheiten.  [Lies mehr...](/angebote/workshops)
+  handelt es sich um einzelne, nicht aufeinander aufbauende Unterrichtseinheiten.  [Lies mehr...](/angebote/workshops)
 """
 
   [[portfolio.portfolio_list]]
@@ -164,7 +166,7 @@ title = "Anfahrt & Kontakt"
 text = """
 Die Hundeschule befindet sich direkt an den Wentruper Bergen in Greven, stadtauswärts in Richtung Saerbeck.
 
-{{< imgproc src="img/logo.jpg" mode="resize 200x"  >}}
+{{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}
 
 """
 image = "img/anfahrt.png"

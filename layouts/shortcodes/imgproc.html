@@ -11,5 +11,5 @@ Renders the given image using the given process specification.
 
 {{- $i := resources.Get (.Get "src") }}
 {{- $spec := .Get "mode" }}
-{{- $img := $i.Process "spec" }}
+{{- $img := $i.Process $spec }}
 <img style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="">

@@ -7,7 +7,7 @@ draft: false
 image: "img/angebot-spezial.webp"
 ---
 
-Herzlich willkommen bei meinen Workshops. In meinen Workshops werden grundlegende Themen aus der Hundeerziehung aber auch aus der Hundebeschäftigung. Dieses Angebot findet hauptsächlich in den Sommermonaten statt und kann alleine oder auch als Zusatz zu einem Kurs gebucht werden. Hierbei handelt es sich um einzelne nicht aufeinander aufbauende Unterrichtseinheiten.
+Herzlich willkommen bei meinen Workshops. In meinen Workshops werden grundlegende Themen aus der Hundeerziehung aber auch aus der Hundebeschäftigung thematisiert. Dieses Angebot findet hauptsächlich in den Sommermonaten statt und kann alleine oder auch als Zusatz zu einem Kurs gebucht werden. Hierbei handelt es sich um einzelne, nicht aufeinander aufbauende Unterrichtseinheiten.
 
 Themen sind zum Beispiel:
 
@@ -36,6 +36,6 @@ Themen sind zum Beispiel:
     * Lerne deinen Hund zu lesen (positive oder negative Stimmung in der Begegnungssituation)
     * Praktische Übungen zur Förderung von sichern und freundlichen Hundebegegnungen vermitteln.
 - Krimi-Spaziergang
-    * Ein Krimispaziergang bietet nicht nur eine unterhaltsame und interaktive Möglichkeit für Hundebesitzer, sondern fördert auch die Zusammenarbeit zwischen Hund und Halter in einer spielerischen Umgebung.
+    * Ein Krimi-Spaziergang bietet nicht nur eine unterhaltsame und interaktive Möglichkeit für Hundebesitzer, sondern fördert auch die Zusammenarbeit zwischen Hund und Halter in einer spielerischen Umgebung.
 
 Halte dich gerne auf meiner Website oder über meinen Instagram-Kanal auf dem Laufenden.
