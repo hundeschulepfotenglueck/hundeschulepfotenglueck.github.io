@@ -6,7 +6,7 @@ draft = false
 
 **Verantwortlich für den Inhalt dieser Webseite:**
 
-Hundeschule Pfotenbande  
+Hundeschule Pfotenglück  
 Katharina Paul  
 Winkelhoek 9  
 kathi@hundeschulepfotenglueck.de  
