@@ -6,9 +6,11 @@ draft = false
 
 **Verantwortlich für den Inhalt dieser Webseite:**
 
-\[Dein Name/Organisation\]  
-\[Deine Adresse\]  
-\[Deine E-Mail-Adresse\]  
-\[Deine Telefonnummer\]
+Hundeschule Pfotenbande  
+Katharina Paul  
+Winkelhoek 9  
+kathi@hundeschulepfotenglueck.de  
+0157 30792731
+
 
 {{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}
