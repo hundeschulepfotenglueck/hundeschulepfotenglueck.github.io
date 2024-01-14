@@ -157,6 +157,8 @@ Im Folgenden findest du eine Übersicht meiner Preise und Leistungen:
 - Social-Walk: 20 €
 
 
+Die Preise der Workshops variieren je nach Themenbereich.
+
 Bitte beachte: Die 5er und 10er Karten sind nicht übertragbar und gelten nur für Gruppenstunden. Die Karten haben eine Gültigkeit von x und y Wochen. 
 """
 
@@ -227,8 +229,13 @@ image = "img/anfahrt.png"
 
 [[miscs.section.items]]
 icon = '<i class="fas fa-download"></i>'
-text = "[Download Haftungsausschluss](/downloads/Haftungsausschluss.pdf)"
+text = "[Haftungsausschluss](/downloads/Haftungsausschluss.pdf)"
 
 [[miscs.section.items]]
 icon = '<i class="fas fa-download"></i>'
-text = "[Download Einwilligungserklärung Datenschutz](/downloads/DatenschutzEinwilligung.pdf.pdf)"
+text = "[Einwilligungserklärung Datenschutz](/downloads/DatenschutzEinwilligung.pdf)"
+
+[[miscs.section.items]]
+icon = '<i class="fas fa-download"></i>'
+text = "[Allgemeine Geschäftsbedingungen](/downloads/AllgemeineGeschäftsbedinungen.pdf)"
+
