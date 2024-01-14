@@ -35,7 +35,5 @@ Themen sind zum Beispiel:
     * Immer neu zusammengewürfelte Gruppen (Training mit unbekannten Hunden)
     * Lerne deinen Hund zu lesen (positive oder negative Stimmung in der Begegnungssituation)
     * Praktische Übungen zur Förderung von sichern und freundlichen Hundebegegnungen vermitteln.
-- Krimi-Spaziergang
-    * Ein Krimi-Spaziergang bietet nicht nur eine unterhaltsame und interaktive Möglichkeit für Hundebesitzer, sondern fördert auch die Zusammenarbeit zwischen Hund und Halter in einer spielerischen Umgebung.
 
 Halte dich gerne auf meiner Website oder über meinen Instagram-Kanal auf dem Laufenden.
