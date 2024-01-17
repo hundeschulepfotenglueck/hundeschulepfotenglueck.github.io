@@ -140,6 +140,15 @@
     End Portfolio
     =============================== -->
 
+{{ if .Site.Data.content.premises.enable }}
+{{ with .Site.Data.content.premises }}
+<section class="pricing container pt-5" id="premises">
+    <h2>{{ .title }}</h2>
+    {{ .text | markdownify }}
+</section>
+{{ end }}
+{{ end }}
+
 {{ if .Site.Data.content.pricing.enable }}
 {{ with .Site.Data.content.pricing }}
 <section class="pricing container pt-5" id="pricing">

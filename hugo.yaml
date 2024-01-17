@@ -43,12 +43,15 @@ menu:
     - name: Angebote
       URL: "#portfolio"
       weight: 3
+    - name: Trainingsgelände
+      URL: "#premises"
+      weight: 4
     - name: Preise
       URL: "#pricing"
-      weight: 4
+      weight: 5
     - name: Anfahrt & Kontakt
       URL: "#contact"
-      weight: 5
+      weight: 6
     - name: Links & Downloads
       URL: "#misc"
-      weight: 6
+      weight: 7

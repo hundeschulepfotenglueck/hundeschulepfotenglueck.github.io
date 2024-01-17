@@ -143,6 +143,23 @@ Hier geht's zum allgemeinen Buchungsformular:
   Die Social-Walks werden in den Sommermonaten regelmäßig angeboten.
 """
 
+[premises]
+enable = true
+title = "Das Trainingsgelände"
+text = """
+Die Hundeschule bietet individuelles Training für dich und deinen Vierbeiner - unabhängig vom Wetter.
+
+Ein großzügiger Außenplatz ermöglicht Bewegung und Freiluftübungen, während die geräumige Halle auch bei Regen und im Winter optimale Trainingsbedingungen bietet.
+
+Darüber hinaus stehen umfangreiche Trainingsutensilien zur Verfügung, die wir während der Übungsstunden nutzen können.
+
+{{< imgproc src="img/aussen.png" mode="resize 600x webp q95"  >}}  
+Das Außengelände – abtrennbar in 3 Bereiche
+
+{{< imgproc src="img/innen.png" mode="resize 600x webp q95"  >}}  
+Die Halle – mit vielseitigen Möglichkeiten
+"""
+
 [pricing]
 enable = true
 title = "Preise"
