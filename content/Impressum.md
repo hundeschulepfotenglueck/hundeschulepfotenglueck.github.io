@@ -12,5 +12,9 @@ Winkelhoek 9
 kathi@hundeschulepfotenglueck.de  
 0157 30792731
 
-
 {{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}
+
+{{< rawhtml >}}
+Diese Webseite wurde mit freundlicher Unterstützung von <a href="https://realcyber.de">Paul Schaefer</a> erstellt.
+{{< /rawhtml >}}
+
