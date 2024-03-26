@@ -8,7 +8,7 @@
     <language>de-de</language>
     <managingEditor>foo@bar.com (Katharina Paul)</managingEditor>
     <webMaster>foo@bar.com (Katharina Paul)</webMaster>
-    <lastBuildDate>Thu, 21 Dec 2023 22:58:08 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2024 13:01:54 +0100</lastBuildDate>
     <atom:link href="https://hundeschulepfotenglueck.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workshops</title>
@@ -71,7 +71,7 @@
       <link>https://hundeschulepfotenglueck.de/impressum/</link>
       <pubDate>Sat, 23 Dec 2023 00:08:38 +0100</pubDate><author>foo@bar.com (Katharina Paul)</author>
       <guid>https://hundeschulepfotenglueck.de/impressum/</guid>
-      <description>Verantwortlich für den Inhalt dieser Webseite:&#xA;Hundeschule Pfotenglück&#xA;Katharina Paul&#xA;Winkelhoek 9&#xA;kathi@hundeschulepfotenglueck.de&#xA;0157 30792731</description>
+      <description>Verantwortlich für den Inhalt dieser Webseite:&#xA;Hundeschule Pfotenglück&#xA;Katharina Paul&#xA;Winkelhoek 9&#xA;kathi@hundeschulepfotenglueck.de&#xA;0157 30792731&#xA;Diese Webseite wurde mit freundlicher Unterstützung von Paul Schaefer erstellt. </description>
     </item>
   </channel>
 </rss>
