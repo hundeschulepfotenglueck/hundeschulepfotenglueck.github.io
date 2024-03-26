@@ -884,6 +884,25 @@ label {
     }
   }
 }
+
+.w-90 {
+    width: 90%;
+    max-width: 18em;
+}
+
+.mt-6 {
+    margin-top: 3em !important;
+}
+
+.mb-6 {
+    margin-bottom: 3em !important;
+}
+
+.m-auto {
+    display: block;
+    margin: 0 auto;
+}
+
 .about-me {
   background: #fff;
   padding: 70px 0px;
@@ -899,6 +918,7 @@ label {
     color: $turquise;
     font-size: 16px;
   }
+
 }
 .download-cv {
   &:hover {

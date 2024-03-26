@@ -19,6 +19,7 @@
         <div class="text-holder">
           <h2>{{ .title | safeHTML }}</h2>
           <p>{{ .content | markdownify | emojify }}</p>
+
           {{ if .button.enable }} {{ with .button }}
           <a
             href="{{ .link | relURL }}"
@@ -31,11 +32,10 @@
           {{ end }} {{ end }}
         </div>
       </div>
-      {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images">
-        <img src="{{ . | relURL }}" alt="about-me" />
+        <img src="{{ .image | relURL }}" alt="about-me" />
+        <img alt="" src="{{ .image_below }}" class="w-90 m-auto mt-6 mb-6" />
       </div>
-      {{ end }}
     </div>
     {{ end }} {{ end }}
 

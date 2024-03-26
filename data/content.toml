@@ -9,6 +9,7 @@ mobile_bg_image = "img/kathi2.jpeg"
 enable = true
 image = "img/kathi.jpeg"
 title = "Herzlich willkommen, mein Name ist Katharina Paul."
+image_below = "/img/teilnahmesiegel-ht-at-home.svg"
 content = """
 Ich bin 32 Jahre alt und arbeite hauptberuflich als Erzieherin in einer naturpädagogischen Kindertagesstätte. Zu mir gehören der Tierschutzhund Bruno (geboren 2016, Galgo-Mix) und Greta (geboren 2018, Australian Shepherd).
 
