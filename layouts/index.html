@@ -184,6 +184,11 @@
       </div>
   </div>
   {{ end }}
+  {{ if .text_below }}
+  <div class="row container">
+      {{ .text_below | markdownify }}
+  </div>
+  {{ end }}
 </section>
 {{ end }}
 {{ end }}

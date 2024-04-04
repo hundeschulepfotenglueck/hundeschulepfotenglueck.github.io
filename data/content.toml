@@ -191,6 +191,7 @@ Die Hundeschule befindet sich direkt an den Wentruper Bergen in Greven, stadtaus
 
 """
 image = "img/anfahrt.png"
+text_below = "**Am besten erreicht ihr mich per E-Mail. Ich werde mich umgehend bei euch melden!**"
 
 [[contact.items]]
 icon = '<i class="fas fa-map-marker-alt"></i>'
