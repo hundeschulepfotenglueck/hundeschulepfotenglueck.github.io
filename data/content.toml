@@ -68,6 +68,7 @@ Hier geht's zum allgemeinen Buchungsformular:
   - Sonntags um 15:00 Uhr
   - Sonntags um 16:00 Uhr
   - Sonntags um 17:00 Uhr
+  - Sonntags um 18:00 Uhr
 """
 
   [[portfolio.portfolio_list]]
@@ -102,7 +103,6 @@ Hier geht's zum allgemeinen Buchungsformular:
   **Termine:**  
 
   - Mittwochs um 19:00 Uhr
-  - Sonntags um 18:00 Uhr
 """
 
   [[portfolio.portfolio_list]]
