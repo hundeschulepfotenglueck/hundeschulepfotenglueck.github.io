@@ -10,7 +10,7 @@ Hundeschule Pfotenglück
 Katharina Paul  
 Winkelhoek 9  
 kathi@hundeschulepfotenglueck.de  
-0157 30792731
+0176 41314773
 
 **Am besten erreicht ihr mich per E-Mail. Ich werde mich umgehend bei euch melden!**
 
