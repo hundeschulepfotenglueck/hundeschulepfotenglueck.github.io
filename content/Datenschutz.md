@@ -37,4 +37,3 @@ Diese Datenschutzerklärung kann aktualisiert werden. Überprüfen Sie diese Sei
 
 Für weitere Informationen zur Datenschutzrichtlinie von Airtable Inc., besuchen Sie bitte <https://www.airtable.com/company/privacy>.
 
-{{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}

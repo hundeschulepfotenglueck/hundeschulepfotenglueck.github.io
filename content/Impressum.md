@@ -14,9 +14,3 @@ kathi@hundeschulepfotenglueck.de
 
 **Am besten erreicht ihr mich per E-Mail. Ich werde mich umgehend bei euch melden!**
 
-{{< imgproc src="img/logo.jpg" mode="resize 600x webp q95"  >}}
-
-{{< rawhtml >}}
-Diese Webseite wurde mit freundlicher Unterstützung von <a href="https://realcyber.de">Paul Schaefer</a> erstellt.
-{{< /rawhtml >}}
-

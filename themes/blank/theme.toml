@@ -1,0 +1,9 @@
+name = "Blank"
+license = "MIT"
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = "0.60.0"
+demosite = ""
+
